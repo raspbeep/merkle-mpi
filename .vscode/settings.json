@@ -1,0 +1,13 @@
+{
+  "files.associations": {
+    "*.tsx": "typescriptreact",
+    "mpi_interface.h": "c",
+    "cstring": "c",
+    "variant": "c",
+    "*.inc": "c",
+    "span": "c",
+    "omp.h": "c",
+    "merkle.h": "c"
+  },
+  "cmake.ignoreCMakeListsMissing": true
+}

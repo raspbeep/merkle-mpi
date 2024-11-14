@@ -1,0 +1,18 @@
+{
+  "configurations": [
+      {
+          "name": "Linux",
+          "includePath": [
+              "${workspaceFolder}/**",
+              "/opt/homebrew/include",
+              "/apps/all/OpenMPI/4.1.1-GCC-11.2.0/include"
+          ],
+          "defines": [],
+          "compilerPath": "/usr/bin/gcc",
+          "cStandard": "c23",
+          "cppStandard": "c++23",
+          "intelliSenseMode": "gcc-x64"
+      }
+  ],
+  "version": 4
+}

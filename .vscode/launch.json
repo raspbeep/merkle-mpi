@@ -1,0 +1,11 @@
+{
+  "configurations": [
+  {
+    "name": "(lldb) Attach",
+    "type": "cppdbg",
+    "request": "attach",
+    "program": "${workspaceFolder}/build/test_merkle",
+    "MIMode": "lldb"
+  }
+  ]
+}
