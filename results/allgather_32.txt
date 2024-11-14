@@ -1,0 +1,261 @@
+MPI Benchmark Results
+=====================
+Processes: 32
+Iterations: 100
+
+Allgather Buffer size: 128 bytes, item count: 16
+Allgather            Size:      128 bytes  Time: min=    6.95 μs avg=   18.07 μs max=  242.05μs  BW=    6.75 MB/s
+Allgather (Merkle)   Size:      128 bytes  Time: min=67631.08 μs avg=76466.43 μs max=118532.07μs  BW=    0.00 MB/s
+---------------------------------------------
+Allgather Buffer size: 256 bytes, item count: 16
+Allgather            Size:      256 bytes  Time: min=   24.13 μs avg=   29.73 μs max=   53.68μs  BW=    8.21 MB/s
+Allgather (Merkle)   Size:      256 bytes  Time: min=67336.68 μs avg=75686.21 μs max=89772.88μs  BW=    0.00 MB/s
+---------------------------------------------
+Allgather Buffer size: 512 bytes, item count: 16
+Allgather            Size:      512 bytes  Time: min=   47.25 μs avg=   63.43 μs max=   86.47μs  BW=    7.70 MB/s
+Allgather (Merkle)   Size:      512 bytes  Time: min=68094.16 μs avg=75955.25 μs max=87686.92μs  BW=    0.01 MB/s
+---------------------------------------------
+Allgather Buffer size: 1024 bytes, item count: 16
+Allgather            Size:     1024 bytes  Time: min=  109.18 μs avg=  118.28 μs max=  271.04μs  BW=    8.26 MB/s
+Allgather (Merkle)   Size:     1024 bytes  Time: min=68224.98 μs avg=79671.95 μs max=96424.17μs  BW=    0.01 MB/s
+---------------------------------------------
+Allgather Buffer size: 2048 bytes, item count: 16
+Allgather            Size:     2048 bytes  Time: min=  221.48 μs avg=  278.20 μs max=  365.21μs  BW=    7.02 MB/s
+Allgather (Merkle)   Size:     2048 bytes  Time: min=67907.42 μs avg=78821.08 μs max=97828.31μs  BW=    0.02 MB/s
+---------------------------------------------
+Allgather Buffer size: 4096 bytes, item count: 16
+Allgather            Size:     4096 bytes  Time: min=  473.27 μs avg=  578.66 μs max=  608.38μs  BW=    6.75 MB/s
+Allgather (Merkle)   Size:     4096 bytes  Time: min=67938.64 μs avg=79884.75 μs max=97507.82μs  BW=    0.05 MB/s
+---------------------------------------------
+Allgather Buffer size: 8192 bytes, item count: 16
+Allgather            Size:     8192 bytes  Time: min=  515.45 μs avg=  661.39 μs max=  939.08μs  BW=   11.81 MB/s
+Allgather (Merkle)   Size:     8192 bytes  Time: min=69547.73 μs avg=79694.31 μs max=98576.41μs  BW=    0.10 MB/s
+---------------------------------------------
+Allgather Buffer size: 16384 bytes, item count: 16
+Allgather            Size:    16384 bytes  Time: min= 2116.05 μs avg= 2248.15 μs max= 2664.81μs  BW=    6.95 MB/s
+Allgather (Merkle)   Size:    16384 bytes  Time: min=69813.50 μs avg=80673.14 μs max=95629.75μs  BW=    0.19 MB/s
+---------------------------------------------
+Allgather Buffer size: 32768 bytes, item count: 16
+Allgather            Size:    32768 bytes  Time: min= 4277.54 μs avg= 4489.11 μs max= 8361.00μs  BW=    6.96 MB/s
+Allgather (Merkle)   Size:    32768 bytes  Time: min=70016.95 μs avg=81021.07 μs max=101462.66μs  BW=    0.39 MB/s
+---------------------------------------------
+Allgather Buffer size: 65536 bytes, item count: 16
+Allgather            Size:    65536 bytes  Time: min= 9043.47 μs avg= 9212.47 μs max= 9986.28μs  BW=    6.78 MB/s
+Allgather (Merkle)   Size:    65536 bytes  Time: min=71618.99 μs avg=80770.31 μs max=93840.09μs  BW=    0.77 MB/s
+---------------------------------------------
+Allgather Buffer size: 131072 bytes, item count: 16
+Allgather            Size:   131072 bytes  Time: min= 2590.47 μs avg= 2894.83 μs max= 3744.29μs  BW=   43.18 MB/s
+Allgather (Merkle)   Size:   131072 bytes  Time: min=76172.06 μs avg=85119.27 μs max=99256.14μs  BW=    1.47 MB/s
+---------------------------------------------
+Allgather Buffer size: 262144 bytes, item count: 16
+Allgather            Size:   262144 bytes  Time: min= 4461.20 μs avg= 5245.54 μs max=28663.38μs  BW=   47.66 MB/s
+Allgather (Merkle)   Size:   262144 bytes  Time: min=85238.94 μs avg=92832.86 μs max=105790.82μs  BW=    2.69 MB/s
+---------------------------------------------
+Allgather Buffer size: 524288 bytes, item count: 16
+Allgather            Size:   524288 bytes  Time: min= 9018.30 μs avg= 9784.55 μs max=13793.70μs  BW=   51.10 MB/s
+Allgather (Merkle)   Size:   524288 bytes  Time: min=99228.04 μs avg=107002.95 μs max=119452.82μs  BW=    4.67 MB/s
+---------------------------------------------
+Allgather Buffer size: 1048576 bytes, item count: 16
+Allgather            Size:  1048576 bytes  Time: min=17123.35 μs avg=18404.46 μs max=48203.89μs  BW=   54.33 MB/s
+Allgather (Merkle)   Size:  1048576 bytes  Time: min=131505.44 μs avg=139056.74 μs max=155200.33μs  BW=    7.19 MB/s
+---------------------------------------------
+Allgather Buffer size: 2097152 bytes, item count: 16
+Allgather            Size:  2097152 bytes  Time: min=35213.64 μs avg=37198.44 μs max=58568.26μs  BW=   53.77 MB/s
+Allgather (Merkle)   Size:  2097152 bytes  Time: min=194374.40 μs avg=203707.02 μs max=228990.97μs  BW=    9.82 MB/s
+---------------------------------------------
+Allgather Buffer size: 4194304 bytes, item count: 16
+Allgather            Size:  4194304 bytes  Time: min=70620.25 μs avg=75921.40 μs max=97386.28μs  BW=   52.69 MB/s
+Allgather (Merkle)   Size:  4194304 bytes  Time: min=317681.35 μs avg=332909.00 μs max=364051.03μs  BW=   12.02 MB/s
+---------------------------------------------
+Allgather Buffer size: 128 bytes, item count: 64
+Allgather            Size:      128 bytes  Time: min=    8.47 μs avg=   25.39 μs max=  288.43μs  BW=    4.81 MB/s
+Allgather (Merkle)   Size:      128 bytes  Time: min=67736.59 μs avg=75626.39 μs max=87553.29μs  BW=    0.00 MB/s
+---------------------------------------------
+Allgather Buffer size: 256 bytes, item count: 64
+Allgather            Size:      256 bytes  Time: min=   12.78 μs avg=   19.13 μs max=   35.31μs  BW=   12.76 MB/s
+Allgather (Merkle)   Size:      256 bytes  Time: min=68122.95 μs avg=75456.02 μs max=86943.77μs  BW=    0.00 MB/s
+---------------------------------------------
+Allgather Buffer size: 512 bytes, item count: 64
+Allgather            Size:      512 bytes  Time: min=   39.52 μs avg=   61.64 μs max=   83.14μs  BW=    7.92 MB/s
+Allgather (Merkle)   Size:      512 bytes  Time: min=68040.32 μs avg=75957.70 μs max=89247.40μs  BW=    0.01 MB/s
+---------------------------------------------
+Allgather Buffer size: 1024 bytes, item count: 64
+Allgather            Size:     1024 bytes  Time: min=  109.58 μs avg=  116.73 μs max=  182.65μs  BW=    8.37 MB/s
+Allgather (Merkle)   Size:     1024 bytes  Time: min=67279.53 μs avg=79347.28 μs max=101960.21μs  BW=    0.01 MB/s
+---------------------------------------------
+Allgather Buffer size: 2048 bytes, item count: 64
+Allgather            Size:     2048 bytes  Time: min=  188.52 μs avg=  276.53 μs max=  323.07μs  BW=    7.06 MB/s
+Allgather (Merkle)   Size:     2048 bytes  Time: min=67368.37 μs avg=79550.53 μs max=98532.39μs  BW=    0.02 MB/s
+---------------------------------------------
+Allgather Buffer size: 4096 bytes, item count: 64
+Allgather            Size:     4096 bytes  Time: min=  439.57 μs avg=  570.71 μs max=  611.63μs  BW=    6.84 MB/s
+Allgather (Merkle)   Size:     4096 bytes  Time: min=66911.74 μs avg=79527.52 μs max=100066.54μs  BW=    0.05 MB/s
+---------------------------------------------
+Allgather Buffer size: 8192 bytes, item count: 64
+Allgather            Size:     8192 bytes  Time: min= 1003.73 μs avg= 1107.18 μs max= 1182.33μs  BW=    7.06 MB/s
+Allgather (Merkle)   Size:     8192 bytes  Time: min=69167.16 μs avg=79914.45 μs max=97448.68μs  BW=    0.10 MB/s
+---------------------------------------------
+Allgather Buffer size: 16384 bytes, item count: 64
+Allgather            Size:    16384 bytes  Time: min=  641.76 μs avg= 1269.83 μs max= 2570.16μs  BW=   12.30 MB/s
+Allgather (Merkle)   Size:    16384 bytes  Time: min=69024.75 μs avg=80831.26 μs max=94690.81μs  BW=    0.19 MB/s
+---------------------------------------------
+Allgather Buffer size: 32768 bytes, item count: 64
+Allgather            Size:    32768 bytes  Time: min= 2488.75 μs avg= 3878.90 μs max= 4455.66μs  BW=    8.06 MB/s
+Allgather (Merkle)   Size:    32768 bytes  Time: min=69823.77 μs avg=80495.12 μs max=97713.39μs  BW=    0.39 MB/s
+---------------------------------------------
+Allgather Buffer size: 65536 bytes, item count: 64
+Allgather            Size:    65536 bytes  Time: min= 3400.58 μs avg= 8859.02 μs max= 9691.06μs  BW=    7.05 MB/s
+Allgather (Merkle)   Size:    65536 bytes  Time: min=68408.98 μs avg=81961.84 μs max=102027.13μs  BW=    0.76 MB/s
+---------------------------------------------
+Allgather Buffer size: 131072 bytes, item count: 64
+Allgather            Size:   131072 bytes  Time: min= 4508.04 μs avg=15006.70 μs max=18408.12μs  BW=    8.33 MB/s
+Allgather (Merkle)   Size:   131072 bytes  Time: min=71958.38 μs avg=81520.56 μs max=95738.69μs  BW=    1.53 MB/s
+---------------------------------------------
+Allgather Buffer size: 262144 bytes, item count: 64
+Allgather            Size:   262144 bytes  Time: min= 4580.72 μs avg= 5097.40 μs max=12097.44μs  BW=   49.04 MB/s
+Allgather (Merkle)   Size:   262144 bytes  Time: min=76697.65 μs avg=85100.04 μs max=101275.89μs  BW=    2.94 MB/s
+---------------------------------------------
+Allgather Buffer size: 524288 bytes, item count: 64
+Allgather            Size:   524288 bytes  Time: min= 9000.18 μs avg= 9848.38 μs max=16565.98μs  BW=   50.77 MB/s
+Allgather (Merkle)   Size:   524288 bytes  Time: min=85269.85 μs avg=93699.83 μs max=108582.65μs  BW=    5.34 MB/s
+---------------------------------------------
+Allgather Buffer size: 1048576 bytes, item count: 64
+Allgather            Size:  1048576 bytes  Time: min=18115.48 μs avg=19622.92 μs max=24034.16μs  BW=   50.96 MB/s
+Allgather (Merkle)   Size:  1048576 bytes  Time: min=102056.23 μs avg=109305.51 μs max=120103.91μs  BW=    9.15 MB/s
+---------------------------------------------
+Allgather Buffer size: 2097152 bytes, item count: 64
+Allgather            Size:  2097152 bytes  Time: min=34955.73 μs avg=36444.81 μs max=72809.24μs  BW=   54.88 MB/s
+Allgather (Merkle)   Size:  2097152 bytes  Time: min=131065.09 μs avg=140946.58 μs max=170372.26μs  BW=   14.19 MB/s
+---------------------------------------------
+Allgather Buffer size: 4194304 bytes, item count: 64
+Allgather            Size:  4194304 bytes  Time: min=69007.30 μs avg=73184.51 μs max=102151.76μs  BW=   54.66 MB/s
+Allgather (Merkle)   Size:  4194304 bytes  Time: min=202502.11 μs avg=213228.34 μs max=239687.56μs  BW=   18.76 MB/s
+---------------------------------------------
+Allgather Buffer size: 128 bytes, item count: 256
+Allgather            Size:      128 bytes  Time: min=    8.11 μs avg=   18.25 μs max=   91.28μs  BW=    6.69 MB/s
+Allgather (Merkle)   Size:      128 bytes  Time: min=67988.28 μs avg=75741.07 μs max=85792.43μs  BW=    0.00 MB/s
+---------------------------------------------
+Allgather Buffer size: 256 bytes, item count: 256
+Allgather            Size:      256 bytes  Time: min=   14.88 μs avg=   23.52 μs max=   43.29μs  BW=   10.38 MB/s
+Allgather (Merkle)   Size:      256 bytes  Time: min=68563.44 μs avg=76136.23 μs max=89128.19μs  BW=    0.00 MB/s
+---------------------------------------------
+Allgather Buffer size: 512 bytes, item count: 256
+Allgather            Size:      512 bytes  Time: min=   25.99 μs avg=   56.02 μs max=   77.76μs  BW=    8.72 MB/s
+Allgather (Merkle)   Size:      512 bytes  Time: min=67909.73 μs avg=76023.07 μs max=90089.73μs  BW=    0.01 MB/s
+---------------------------------------------
+Allgather Buffer size: 1024 bytes, item count: 256
+Allgather            Size:     1024 bytes  Time: min=  111.77 μs avg=  120.15 μs max=  341.63μs  BW=    8.13 MB/s
+Allgather (Merkle)   Size:     1024 bytes  Time: min=68203.69 μs avg=79073.80 μs max=98324.71μs  BW=    0.01 MB/s
+---------------------------------------------
+Allgather Buffer size: 2048 bytes, item count: 256
+Allgather            Size:     2048 bytes  Time: min=  202.87 μs avg=  272.01 μs max=  324.43μs  BW=    7.18 MB/s
+Allgather (Merkle)   Size:     2048 bytes  Time: min=67489.00 μs avg=79812.43 μs max=101800.03μs  BW=    0.02 MB/s
+---------------------------------------------
+Allgather Buffer size: 4096 bytes, item count: 256
+Allgather            Size:     4096 bytes  Time: min=  544.19 μs avg=  575.73 μs max=  607.59μs  BW=    6.78 MB/s
+Allgather (Merkle)   Size:     4096 bytes  Time: min=67757.81 μs avg=79123.58 μs max=99565.99μs  BW=    0.05 MB/s
+---------------------------------------------
+Allgather Buffer size: 8192 bytes, item count: 256
+Allgather            Size:     8192 bytes  Time: min=  772.45 μs avg= 1106.23 μs max= 1268.66μs  BW=    7.06 MB/s
+Allgather (Merkle)   Size:     8192 bytes  Time: min=68584.29 μs avg=80153.41 μs max=93895.51μs  BW=    0.10 MB/s
+---------------------------------------------
+Allgather Buffer size: 16384 bytes, item count: 256
+Allgather            Size:    16384 bytes  Time: min= 2102.31 μs avg= 2221.45 μs max= 2756.53μs  BW=    7.03 MB/s
+Allgather (Merkle)   Size:    16384 bytes  Time: min=69111.01 μs avg=80894.98 μs max=102289.15μs  BW=    0.19 MB/s
+---------------------------------------------
+Allgather Buffer size: 32768 bytes, item count: 256
+Allgather            Size:    32768 bytes  Time: min= 1937.68 μs avg= 2588.48 μs max= 4491.36μs  BW=   12.07 MB/s
+Allgather (Merkle)   Size:    32768 bytes  Time: min=69654.73 μs avg=81748.23 μs max=99971.40μs  BW=    0.38 MB/s
+---------------------------------------------
+Allgather Buffer size: 65536 bytes, item count: 256
+Allgather            Size:    65536 bytes  Time: min= 4841.28 μs avg= 8644.18 μs max= 9595.40μs  BW=    7.23 MB/s
+Allgather (Merkle)   Size:    65536 bytes  Time: min=69263.84 μs avg=81884.62 μs max=92696.93μs  BW=    0.76 MB/s
+---------------------------------------------
+Allgather Buffer size: 131072 bytes, item count: 256
+Allgather            Size:   131072 bytes  Time: min= 3420.95 μs avg=15629.50 μs max=19467.22μs  BW=    8.00 MB/s
+Allgather (Merkle)   Size:   131072 bytes  Time: min=71347.30 μs avg=80919.90 μs max=96847.91μs  BW=    1.54 MB/s
+---------------------------------------------
+Allgather Buffer size: 262144 bytes, item count: 256
+Allgather            Size:   262144 bytes  Time: min= 4371.37 μs avg= 5088.96 μs max=16707.74μs  BW=   49.13 MB/s
+Allgather (Merkle)   Size:   262144 bytes  Time: min=70112.21 μs avg=83114.10 μs max=98661.82μs  BW=    3.01 MB/s
+---------------------------------------------
+Allgather Buffer size: 524288 bytes, item count: 256
+Allgather            Size:   524288 bytes  Time: min= 8980.64 μs avg= 9930.91 μs max=20731.17μs  BW=   50.35 MB/s
+Allgather (Merkle)   Size:   524288 bytes  Time: min=80621.13 μs avg=89028.39 μs max=102192.80μs  BW=    5.62 MB/s
+---------------------------------------------
+Allgather Buffer size: 1048576 bytes, item count: 256
+Allgather            Size:  1048576 bytes  Time: min=18082.94 μs avg=19141.42 μs max=24925.16μs  BW=   52.24 MB/s
+Allgather (Merkle)   Size:  1048576 bytes  Time: min=90912.02 μs avg=99569.39 μs max=112368.38μs  BW=   10.04 MB/s
+---------------------------------------------
+Allgather Buffer size: 2097152 bytes, item count: 256
+Allgather            Size:  2097152 bytes  Time: min=36956.24 μs avg=38765.49 μs max=60251.51μs  BW=   51.59 MB/s
+Allgather (Merkle)   Size:  2097152 bytes  Time: min=109393.18 μs avg=123313.34 μs max=148638.65μs  BW=   16.22 MB/s
+---------------------------------------------
+Allgather Buffer size: 4194304 bytes, item count: 256
+Allgather            Size:  4194304 bytes  Time: min=73170.22 μs avg=76663.15 μs max=111842.95μs  BW=   52.18 MB/s
+Allgather (Merkle)   Size:  4194304 bytes  Time: min=160530.06 μs avg=171424.81 μs max=201768.40μs  BW=   23.33 MB/s
+---------------------------------------------
+Allgather Buffer size: 128 bytes, item count: 1024
+Allgather            Size:      128 bytes  Time: min=    8.54 μs avg=   16.82 μs max=   89.34μs  BW=    7.26 MB/s
+Allgather (Merkle)   Size:      128 bytes  Time: min=68325.81 μs avg=75685.58 μs max=90388.05μs  BW=    0.00 MB/s
+---------------------------------------------
+Allgather Buffer size: 256 bytes, item count: 1024
+Allgather            Size:      256 bytes  Time: min=   20.57 μs avg=   27.56 μs max=   45.00μs  BW=    8.86 MB/s
+Allgather (Merkle)   Size:      256 bytes  Time: min=68116.70 μs avg=75676.80 μs max=91199.40μs  BW=    0.00 MB/s
+---------------------------------------------
+Allgather Buffer size: 512 bytes, item count: 1024
+Allgather            Size:      512 bytes  Time: min=   44.05 μs avg=   60.90 μs max=   77.56μs  BW=    8.02 MB/s
+Allgather (Merkle)   Size:      512 bytes  Time: min=68178.21 μs avg=75853.20 μs max=89584.52μs  BW=    0.01 MB/s
+---------------------------------------------
+Allgather Buffer size: 1024 bytes, item count: 1024
+Allgather            Size:     1024 bytes  Time: min=  109.40 μs avg=  116.10 μs max=  168.76μs  BW=    8.41 MB/s
+Allgather (Merkle)   Size:     1024 bytes  Time: min=67994.28 μs avg=79234.02 μs max=98089.03μs  BW=    0.01 MB/s
+---------------------------------------------
+Allgather Buffer size: 2048 bytes, item count: 1024
+Allgather            Size:     2048 bytes  Time: min=  201.39 μs avg=  272.59 μs max=  328.72μs  BW=    7.16 MB/s
+Allgather (Merkle)   Size:     2048 bytes  Time: min=67438.91 μs avg=80002.33 μs max=106095.83μs  BW=    0.02 MB/s
+---------------------------------------------
+Allgather Buffer size: 4096 bytes, item count: 1024
+Allgather            Size:     4096 bytes  Time: min=  512.81 μs avg=  572.76 μs max=  639.43μs  BW=    6.82 MB/s
+Allgather (Merkle)   Size:     4096 bytes  Time: min=68930.00 μs avg=79667.60 μs max=98542.17μs  BW=    0.05 MB/s
+---------------------------------------------
+Allgather Buffer size: 8192 bytes, item count: 1024
+Allgather            Size:     8192 bytes  Time: min=  736.20 μs avg= 1104.75 μs max= 1354.14μs  BW=    7.07 MB/s
+Allgather (Merkle)   Size:     8192 bytes  Time: min=68485.23 μs avg=79909.38 μs max=99063.78μs  BW=    0.10 MB/s
+---------------------------------------------
+Allgather Buffer size: 16384 bytes, item count: 1024
+Allgather            Size:    16384 bytes  Time: min=  933.90 μs avg= 2156.33 μs max= 2600.12μs  BW=    7.25 MB/s
+Allgather (Merkle)   Size:    16384 bytes  Time: min=70178.99 μs avg=79989.51 μs max=96856.35μs  BW=    0.20 MB/s
+---------------------------------------------
+Allgather Buffer size: 32768 bytes, item count: 1024
+Allgather            Size:    32768 bytes  Time: min= 2559.57 μs avg= 4244.13 μs max= 5331.37μs  BW=    7.36 MB/s
+Allgather (Merkle)   Size:    32768 bytes  Time: min=69388.78 μs avg=81885.86 μs max=99472.92μs  BW=    0.38 MB/s
+---------------------------------------------
+Allgather Buffer size: 65536 bytes, item count: 1024
+Allgather            Size:    65536 bytes  Time: min= 4605.29 μs avg= 8973.70 μs max= 9451.46μs  BW=    6.96 MB/s
+Allgather (Merkle)   Size:    65536 bytes  Time: min=70751.13 μs avg=82525.04 μs max=94470.07μs  BW=    0.76 MB/s
+---------------------------------------------
+Allgather Buffer size: 131072 bytes, item count: 1024
+Allgather            Size:   131072 bytes  Time: min= 3409.40 μs avg=16753.90 μs max=20148.73μs  BW=    7.46 MB/s
+Allgather (Merkle)   Size:   131072 bytes  Time: min=70510.45 μs avg=81302.19 μs max=94648.50μs  BW=    1.54 MB/s
+---------------------------------------------
+Allgather Buffer size: 262144 bytes, item count: 1024
+Allgather            Size:   262144 bytes  Time: min= 4386.60 μs avg= 5158.80 μs max=18354.99μs  BW=   48.46 MB/s
+Allgather (Merkle)   Size:   262144 bytes  Time: min=73431.17 μs avg=82146.81 μs max=94833.07μs  BW=    3.04 MB/s
+---------------------------------------------
+Allgather Buffer size: 524288 bytes, item count: 1024
+Allgather            Size:   524288 bytes  Time: min= 8785.09 μs avg= 9744.97 μs max=11202.82μs  BW=   51.31 MB/s
+Allgather (Merkle)   Size:   524288 bytes  Time: min=79301.02 μs avg=88167.67 μs max=100107.18μs  BW=    5.67 MB/s
+---------------------------------------------
+Allgather Buffer size: 1048576 bytes, item count: 1024
+Allgather            Size:  1048576 bytes  Time: min=18008.26 μs avg=19248.44 μs max=30129.64μs  BW=   51.95 MB/s
+Allgather (Merkle)   Size:  1048576 bytes  Time: min=91767.26 μs avg=97839.33 μs max=107537.29μs  BW=   10.22 MB/s
+---------------------------------------------
+Allgather Buffer size: 2097152 bytes, item count: 1024
+Allgather            Size:  2097152 bytes  Time: min=37005.00 μs avg=38703.69 μs max=59816.99μs  BW=   51.67 MB/s
+Allgather (Merkle)   Size:  2097152 bytes  Time: min=108850.05 μs avg=120426.91 μs max=147602.33μs  BW=   16.61 MB/s
+---------------------------------------------
+Allgather Buffer size: 4194304 bytes, item count: 1024
+Allgather            Size:  4194304 bytes  Time: min=72482.11 μs avg=77131.16 μs max=103584.85μs  BW=   51.86 MB/s
+Allgather (Merkle)   Size:  4194304 bytes  Time: min=150512.53 μs avg=162275.11 μs max=196069.88μs  BW=   24.65 MB/s
+---------------------------------------------

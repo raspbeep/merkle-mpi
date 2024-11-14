@@ -1,0 +1,797 @@
+MPI Benchmark Results
+=====================
+Processes: 16
+Iterations: 100
+
+Bcast Buffer size: 128 bytes, item count: 16
+Bcast                Size:      128 bytes  Time: min=    1.73 μs avg=    7.86 μs max=   69.93μs  BW=   15.53 MB/s
+Bcast (Merkle)       Size:      128 bytes  Time: min=21470.69 μs avg=34268.54 μs max=49000.90μs  BW=    0.00 MB/s
+---------------------------------------------
+Bcast Buffer size: 256 bytes, item count: 16
+Bcast                Size:      256 bytes  Time: min=    1.82 μs avg=    3.28 μs max=   16.90μs  BW=   74.42 MB/s
+Bcast (Merkle)       Size:      256 bytes  Time: min=28767.31 μs avg=34239.66 μs max=44655.92μs  BW=    0.01 MB/s
+---------------------------------------------
+Bcast Buffer size: 512 bytes, item count: 16
+Bcast                Size:      512 bytes  Time: min=    2.13 μs avg=    4.51 μs max=   16.32μs  BW=  108.24 MB/s
+Bcast (Merkle)       Size:      512 bytes  Time: min=23633.07 μs avg=34051.15 μs max=43443.33μs  BW=    0.01 MB/s
+---------------------------------------------
+Bcast Buffer size: 1024 bytes, item count: 16
+Bcast                Size:     1024 bytes  Time: min=    2.81 μs avg=    5.34 μs max=   15.11μs  BW=  182.75 MB/s
+Bcast (Merkle)       Size:     1024 bytes  Time: min=24017.46 μs avg=34084.79 μs max=46409.52μs  BW=    0.03 MB/s
+---------------------------------------------
+Bcast Buffer size: 2048 bytes, item count: 16
+Bcast                Size:     2048 bytes  Time: min=    5.27 μs avg=    7.14 μs max=   15.31μs  BW=  273.36 MB/s
+Bcast (Merkle)       Size:     2048 bytes  Time: min=19528.93 μs avg=34073.77 μs max=49111.39μs  BW=    0.06 MB/s
+---------------------------------------------
+Bcast Buffer size: 4096 bytes, item count: 16
+Bcast                Size:     4096 bytes  Time: min=    4.60 μs avg=    7.83 μs max=  100.47μs  BW=  498.73 MB/s
+Bcast (Merkle)       Size:     4096 bytes  Time: min=23427.50 μs avg=34602.07 μs max=47173.07μs  BW=    0.11 MB/s
+---------------------------------------------
+Bcast Buffer size: 8192 bytes, item count: 16
+Bcast                Size:     8192 bytes  Time: min=    6.27 μs avg=    7.59 μs max=   14.61μs  BW= 1029.24 MB/s
+Bcast (Merkle)       Size:     8192 bytes  Time: min=23921.03 μs avg=33794.70 μs max=41143.87μs  BW=    0.23 MB/s
+---------------------------------------------
+Bcast Buffer size: 16384 bytes, item count: 16
+Bcast                Size:    16384 bytes  Time: min=   50.31 μs avg=  147.50 μs max= 7956.85μs  BW=  105.93 MB/s
+Bcast (Merkle)       Size:    16384 bytes  Time: min=23094.95 μs avg=34423.00 μs max=49470.53μs  BW=    0.45 MB/s
+---------------------------------------------
+Bcast Buffer size: 32768 bytes, item count: 16
+Bcast                Size:    32768 bytes  Time: min=  117.24 μs avg=  157.29 μs max=  308.99μs  BW=  198.68 MB/s
+Bcast (Merkle)       Size:    32768 bytes  Time: min=21506.78 μs avg=34146.38 μs max=46618.61μs  BW=    0.92 MB/s
+---------------------------------------------
+Bcast Buffer size: 65536 bytes, item count: 16
+Bcast                Size:    65536 bytes  Time: min=  143.14 μs avg=  235.23 μs max= 5565.35μs  BW=  265.69 MB/s
+Bcast (Merkle)       Size:    65536 bytes  Time: min=28443.08 μs avg=34832.78 μs max=51093.24μs  BW=    1.79 MB/s
+---------------------------------------------
+Bcast Buffer size: 131072 bytes, item count: 16
+Bcast                Size:   131072 bytes  Time: min=  241.02 μs avg=  383.30 μs max= 2975.17μs  BW=  326.12 MB/s
+Bcast (Merkle)       Size:   131072 bytes  Time: min=20288.52 μs avg=34190.63 μs max=51944.31μs  BW=    3.66 MB/s
+---------------------------------------------
+Bcast Buffer size: 262144 bytes, item count: 16
+Bcast                Size:   262144 bytes  Time: min=  298.84 μs avg=  373.72 μs max=  893.06μs  BW=  668.96 MB/s
+Bcast (Merkle)       Size:   262144 bytes  Time: min=20611.75 μs avg=34556.78 μs max=49458.78μs  BW=    7.23 MB/s
+---------------------------------------------
+Bcast Buffer size: 524288 bytes, item count: 16
+Bcast                Size:   524288 bytes  Time: min=  442.66 μs avg=  670.89 μs max= 2818.34μs  BW=  745.28 MB/s
+Bcast (Merkle)       Size:   524288 bytes  Time: min=21965.47 μs avg=35143.54 μs max=51456.68μs  BW=   14.23 MB/s
+---------------------------------------------
+Bcast Buffer size: 1048576 bytes, item count: 16
+Bcast                Size:  1048576 bytes  Time: min=  660.55 μs avg=  737.68 μs max= 1717.89μs  BW= 1355.60 MB/s
+Bcast (Merkle)       Size:  1048576 bytes  Time: min=22541.68 μs avg=35560.63 μs max=48417.98μs  BW=   28.12 MB/s
+---------------------------------------------
+Bcast Buffer size: 2097152 bytes, item count: 16
+Bcast                Size:  2097152 bytes  Time: min= 1301.00 μs avg= 1372.33 μs max= 1945.03μs  BW= 1457.37 MB/s
+Bcast (Merkle)       Size:  2097152 bytes  Time: min=24580.86 μs avg=36729.42 μs max=55795.86μs  BW=   54.45 MB/s
+---------------------------------------------
+Bcast Buffer size: 4194304 bytes, item count: 16
+Bcast                Size:  4194304 bytes  Time: min= 2738.91 μs avg= 3036.10 μs max=20183.32μs  BW= 1317.48 MB/s
+Bcast (Merkle)       Size:  4194304 bytes  Time: min=29337.14 μs avg=40087.84 μs max=52019.14μs  BW=   99.78 MB/s
+---------------------------------------------
+Bcast Buffer size: 8388608 bytes, item count: 16
+Bcast                Size:  8388608 bytes  Time: min= 4918.25 μs avg= 5030.96 μs max= 7107.29μs  BW= 1590.15 MB/s
+Bcast (Merkle)       Size:  8388608 bytes  Time: min=38925.82 μs avg=49921.12 μs max=62276.96μs  BW=  160.25 MB/s
+---------------------------------------------
+Bcast Buffer size: 16777216 bytes, item count: 16
+Bcast                Size: 16777216 bytes  Time: min= 9144.61 μs avg= 9656.39 μs max=11523.10μs  BW= 1656.93 MB/s
+Bcast (Merkle)       Size: 16777216 bytes  Time: min=54770.78 μs avg=66172.93 μs max=76917.10μs  BW=  241.79 MB/s
+---------------------------------------------
+Bcast Buffer size: 33554432 bytes, item count: 16
+Bcast                Size: 33554432 bytes  Time: min=17463.96 μs avg=17850.83 μs max=39496.93μs  BW= 1792.63 MB/s
+Bcast (Merkle)       Size: 33554432 bytes  Time: min=89284.04 μs avg=94874.44 μs max=104546.94μs  BW=  337.29 MB/s
+---------------------------------------------
+Bcast Buffer size: 67108864 bytes, item count: 16
+Bcast                Size: 67108864 bytes  Time: min=29273.08 μs avg=29771.74 μs max=50804.11μs  BW= 2149.69 MB/s
+Bcast (Merkle)       Size: 67108864 bytes  Time: min=148866.85 μs avg=152666.96 μs max=175676.43μs  BW=  419.21 MB/s
+---------------------------------------------
+Bcast Buffer size: 134217728 bytes, item count: 16
+Bcast                Size: 134217728 bytes  Time: min=53492.55 μs avg=54205.21 μs max=86526.66μs  BW= 2361.40 MB/s
+Bcast (Merkle)       Size: 134217728 bytes  Time: min=256417.97 μs avg=261229.86 μs max=290619.84μs  BW=  489.99 MB/s
+---------------------------------------------
+Bcast Buffer size: 268435456 bytes, item count: 16
+Bcast                Size: 268435456 bytes  Time: min=102259.77 μs avg=103278.67 μs max=163718.51μs  BW= 2478.73 MB/s
+Bcast (Merkle)       Size: 268435456 bytes  Time: min=481207.01 μs avg=490247.25 μs max=542424.34μs  BW=  522.19 MB/s
+---------------------------------------------
+Bcast Buffer size: 128 bytes, item count: 32
+Bcast                Size:      128 bytes  Time: min=    1.48 μs avg=    2.86 μs max=   14.09μs  BW=   42.61 MB/s
+Bcast (Merkle)       Size:      128 bytes  Time: min=20455.68 μs avg=33917.07 μs max=49047.80μs  BW=    0.00 MB/s
+---------------------------------------------
+Bcast Buffer size: 256 bytes, item count: 32
+Bcast                Size:      256 bytes  Time: min=    1.79 μs avg=    2.51 μs max=    4.82μs  BW=   97.46 MB/s
+Bcast (Merkle)       Size:      256 bytes  Time: min=20178.92 μs avg=34111.74 μs max=50138.06μs  BW=    0.01 MB/s
+---------------------------------------------
+Bcast Buffer size: 512 bytes, item count: 32
+Bcast                Size:      512 bytes  Time: min=    2.89 μs avg=    4.52 μs max=   20.41μs  BW=  108.05 MB/s
+Bcast (Merkle)       Size:      512 bytes  Time: min=22394.58 μs avg=34037.37 μs max=47464.89μs  BW=    0.01 MB/s
+---------------------------------------------
+Bcast Buffer size: 1024 bytes, item count: 32
+Bcast                Size:     1024 bytes  Time: min=    3.92 μs avg=    6.32 μs max=   19.90μs  BW=  154.51 MB/s
+Bcast (Merkle)       Size:     1024 bytes  Time: min=24999.77 μs avg=33731.23 μs max=47697.62μs  BW=    0.03 MB/s
+---------------------------------------------
+Bcast Buffer size: 2048 bytes, item count: 32
+Bcast                Size:     2048 bytes  Time: min=    4.57 μs avg=    6.84 μs max=   29.61μs  BW=  285.66 MB/s
+Bcast (Merkle)       Size:     2048 bytes  Time: min=21215.01 μs avg=33817.92 μs max=45975.14μs  BW=    0.06 MB/s
+---------------------------------------------
+Bcast Buffer size: 4096 bytes, item count: 32
+Bcast                Size:     4096 bytes  Time: min=    4.48 μs avg=    5.93 μs max=   31.74μs  BW=  658.52 MB/s
+Bcast (Merkle)       Size:     4096 bytes  Time: min=19488.55 μs avg=34069.19 μs max=42618.25μs  BW=    0.11 MB/s
+---------------------------------------------
+Bcast Buffer size: 8192 bytes, item count: 32
+Bcast                Size:     8192 bytes  Time: min=    6.58 μs avg=    8.05 μs max=   19.43μs  BW=  970.28 MB/s
+Bcast (Merkle)       Size:     8192 bytes  Time: min=22975.25 μs avg=34455.15 μs max=55023.91μs  BW=    0.23 MB/s
+---------------------------------------------
+Bcast Buffer size: 16384 bytes, item count: 32
+Bcast                Size:    16384 bytes  Time: min=   59.24 μs avg=   83.91 μs max=  214.02μs  BW=  186.20 MB/s
+Bcast (Merkle)       Size:    16384 bytes  Time: min=23785.49 μs avg=34194.52 μs max=46533.01μs  BW=    0.46 MB/s
+---------------------------------------------
+Bcast Buffer size: 32768 bytes, item count: 32
+Bcast                Size:    32768 bytes  Time: min=   37.24 μs avg=  247.98 μs max= 9349.41μs  BW=  126.02 MB/s
+Bcast (Merkle)       Size:    32768 bytes  Time: min=26504.43 μs avg=34167.34 μs max=46664.13μs  BW=    0.91 MB/s
+---------------------------------------------
+Bcast Buffer size: 65536 bytes, item count: 32
+Bcast                Size:    65536 bytes  Time: min=   64.33 μs avg=  297.27 μs max=  320.05μs  BW=  210.25 MB/s
+Bcast (Merkle)       Size:    65536 bytes  Time: min=20071.82 μs avg=34111.91 μs max=51678.15μs  BW=    1.83 MB/s
+---------------------------------------------
+Bcast Buffer size: 131072 bytes, item count: 32
+Bcast                Size:   131072 bytes  Time: min=  106.38 μs avg=  406.38 μs max= 2587.47μs  BW=  307.59 MB/s
+Bcast (Merkle)       Size:   131072 bytes  Time: min=23000.18 μs avg=34391.80 μs max=46762.09μs  BW=    3.63 MB/s
+---------------------------------------------
+Bcast Buffer size: 262144 bytes, item count: 32
+Bcast                Size:   262144 bytes  Time: min=  229.10 μs avg=  400.04 μs max=  865.21μs  BW=  624.94 MB/s
+Bcast (Merkle)       Size:   262144 bytes  Time: min=20586.29 μs avg=34483.61 μs max=47744.58μs  BW=    7.25 MB/s
+---------------------------------------------
+Bcast Buffer size: 524288 bytes, item count: 32
+Bcast                Size:   524288 bytes  Time: min=  415.90 μs avg=  692.51 μs max= 8622.55μs  BW=  722.01 MB/s
+Bcast (Merkle)       Size:   524288 bytes  Time: min=25108.51 μs avg=34943.41 μs max=42492.52μs  BW=   14.31 MB/s
+---------------------------------------------
+Bcast Buffer size: 1048576 bytes, item count: 32
+Bcast                Size:  1048576 bytes  Time: min=  644.06 μs avg=  718.93 μs max= 4164.78μs  BW= 1390.96 MB/s
+Bcast (Merkle)       Size:  1048576 bytes  Time: min=22621.58 μs avg=35250.16 μs max=48759.01μs  BW=   28.37 MB/s
+---------------------------------------------
+Bcast Buffer size: 2097152 bytes, item count: 32
+Bcast                Size:  2097152 bytes  Time: min= 1301.18 μs avg= 1348.75 μs max= 1814.30μs  BW= 1482.85 MB/s
+Bcast (Merkle)       Size:  2097152 bytes  Time: min=23388.43 μs avg=35544.68 μs max=47046.19μs  BW=   56.27 MB/s
+---------------------------------------------
+Bcast Buffer size: 4194304 bytes, item count: 32
+Bcast                Size:  4194304 bytes  Time: min= 2393.29 μs avg= 2485.24 μs max= 3091.10μs  BW= 1609.50 MB/s
+Bcast (Merkle)       Size:  4194304 bytes  Time: min=25360.84 μs avg=38100.68 μs max=49903.78μs  BW=  104.99 MB/s
+---------------------------------------------
+Bcast Buffer size: 8388608 bytes, item count: 32
+Bcast                Size:  8388608 bytes  Time: min= 5022.92 μs avg= 5206.80 μs max= 5930.93μs  BW= 1536.45 MB/s
+Bcast (Merkle)       Size:  8388608 bytes  Time: min=33621.76 μs avg=43455.07 μs max=59338.57μs  BW=  184.10 MB/s
+---------------------------------------------
+Bcast Buffer size: 16777216 bytes, item count: 32
+Bcast                Size: 16777216 bytes  Time: min= 9255.78 μs avg= 9610.85 μs max=11011.74μs  BW= 1664.78 MB/s
+Bcast (Merkle)       Size: 16777216 bytes  Time: min=43379.33 μs avg=53567.24 μs max=61676.78μs  BW=  298.69 MB/s
+---------------------------------------------
+Bcast Buffer size: 33554432 bytes, item count: 32
+Bcast                Size: 33554432 bytes  Time: min=17947.31 μs avg=18123.87 μs max=20314.38μs  BW= 1765.63 MB/s
+Bcast (Merkle)       Size: 33554432 bytes  Time: min=64619.08 μs avg=74600.70 μs max=89459.48μs  BW=  428.95 MB/s
+---------------------------------------------
+Bcast Buffer size: 67108864 bytes, item count: 32
+Bcast                Size: 67108864 bytes  Time: min=29193.77 μs avg=29648.86 μs max=60955.79μs  BW= 2158.60 MB/s
+Bcast (Merkle)       Size: 67108864 bytes  Time: min=103183.64 μs avg=110814.91 μs max=134187.43μs  BW=  577.54 MB/s
+---------------------------------------------
+Bcast Buffer size: 134217728 bytes, item count: 32
+Bcast                Size: 134217728 bytes  Time: min=52243.55 μs avg=53437.70 μs max=86575.59μs  BW= 2395.31 MB/s
+Bcast (Merkle)       Size: 134217728 bytes  Time: min=178242.70 μs avg=181898.79 μs max=217961.58μs  BW=  703.69 MB/s
+---------------------------------------------
+Bcast Buffer size: 268435456 bytes, item count: 32
+Bcast                Size: 268435456 bytes  Time: min=99206.04 μs avg=100185.07 μs max=164456.09μs  BW= 2555.27 MB/s
+Bcast (Merkle)       Size: 268435456 bytes  Time: min=316708.61 μs avg=323338.64 μs max=382702.07μs  BW=  791.74 MB/s
+---------------------------------------------
+Bcast Buffer size: 128 bytes, item count: 64
+Bcast                Size:      128 bytes  Time: min=    1.53 μs avg=    2.45 μs max=   13.82μs  BW=   49.75 MB/s
+Bcast (Merkle)       Size:      128 bytes  Time: min=20199.77 μs avg=33383.38 μs max=45780.54μs  BW=    0.00 MB/s
+---------------------------------------------
+Bcast Buffer size: 256 bytes, item count: 64
+Bcast                Size:      256 bytes  Time: min=    1.90 μs avg=    2.53 μs max=    4.70μs  BW=   96.48 MB/s
+Bcast (Merkle)       Size:      256 bytes  Time: min=22424.93 μs avg=34069.36 μs max=46315.15μs  BW=    0.01 MB/s
+---------------------------------------------
+Bcast Buffer size: 512 bytes, item count: 64
+Bcast                Size:      512 bytes  Time: min=    2.38 μs avg=    3.84 μs max=    6.75μs  BW=  127.23 MB/s
+Bcast (Merkle)       Size:      512 bytes  Time: min=20402.00 μs avg=34170.84 μs max=43287.67μs  BW=    0.01 MB/s
+---------------------------------------------
+Bcast Buffer size: 1024 bytes, item count: 64
+Bcast                Size:     1024 bytes  Time: min=    3.66 μs avg=    5.30 μs max=   22.75μs  BW=  184.30 MB/s
+Bcast (Merkle)       Size:     1024 bytes  Time: min=22112.55 μs avg=33828.89 μs max=44021.83μs  BW=    0.03 MB/s
+---------------------------------------------
+Bcast Buffer size: 2048 bytes, item count: 64
+Bcast                Size:     2048 bytes  Time: min=    4.92 μs avg=    6.03 μs max=   13.93μs  BW=  323.67 MB/s
+Bcast (Merkle)       Size:     2048 bytes  Time: min=21204.93 μs avg=33988.52 μs max=46015.69μs  BW=    0.06 MB/s
+---------------------------------------------
+Bcast Buffer size: 4096 bytes, item count: 64
+Bcast                Size:     4096 bytes  Time: min=    4.04 μs avg=    5.10 μs max=   16.05μs  BW=  765.68 MB/s
+Bcast (Merkle)       Size:     4096 bytes  Time: min=22595.32 μs avg=34172.84 μs max=47278.23μs  BW=    0.11 MB/s
+---------------------------------------------
+Bcast Buffer size: 8192 bytes, item count: 64
+Bcast                Size:     8192 bytes  Time: min=    5.76 μs avg=   49.29 μs max= 4224.96μs  BW=  158.51 MB/s
+Bcast (Merkle)       Size:     8192 bytes  Time: min=19868.62 μs avg=33923.30 μs max=48831.13μs  BW=    0.23 MB/s
+---------------------------------------------
+Bcast Buffer size: 16384 bytes, item count: 64
+Bcast                Size:    16384 bytes  Time: min=   55.73 μs avg=  116.47 μs max= 4518.21μs  BW=  134.15 MB/s
+Bcast (Merkle)       Size:    16384 bytes  Time: min=19909.98 μs avg=34298.14 μs max=46196.09μs  BW=    0.46 MB/s
+---------------------------------------------
+Bcast Buffer size: 32768 bytes, item count: 64
+Bcast                Size:    32768 bytes  Time: min=   36.18 μs avg=  124.61 μs max=  140.53μs  BW=  250.79 MB/s
+Bcast (Merkle)       Size:    32768 bytes  Time: min=25971.61 μs avg=34202.14 μs max=45797.87μs  BW=    0.91 MB/s
+---------------------------------------------
+Bcast Buffer size: 65536 bytes, item count: 64
+Bcast                Size:    65536 bytes  Time: min=  112.59 μs avg=  231.35 μs max= 3514.93μs  BW=  270.16 MB/s
+Bcast (Merkle)       Size:    65536 bytes  Time: min=20003.40 μs avg=34144.37 μs max=45404.95μs  BW=    1.83 MB/s
+---------------------------------------------
+Bcast Buffer size: 131072 bytes, item count: 64
+Bcast                Size:   131072 bytes  Time: min=  108.60 μs avg=  306.42 μs max=  588.23μs  BW=  407.93 MB/s
+Bcast (Merkle)       Size:   131072 bytes  Time: min=24332.96 μs avg=34349.40 μs max=46138.94μs  BW=    3.64 MB/s
+---------------------------------------------
+Bcast Buffer size: 262144 bytes, item count: 64
+Bcast                Size:   262144 bytes  Time: min=  210.98 μs avg=  347.01 μs max=  548.59μs  BW=  720.45 MB/s
+Bcast (Merkle)       Size:   262144 bytes  Time: min=20973.42 μs avg=34221.03 μs max=42065.66μs  BW=    7.31 MB/s
+---------------------------------------------
+Bcast Buffer size: 524288 bytes, item count: 64
+Bcast                Size:   524288 bytes  Time: min=  391.80 μs avg=  709.94 μs max=  880.19μs  BW=  704.28 MB/s
+Bcast (Merkle)       Size:   524288 bytes  Time: min=20594.51 μs avg=34407.97 μs max=51804.94μs  BW=   14.53 MB/s
+---------------------------------------------
+Bcast Buffer size: 1048576 bytes, item count: 64
+Bcast                Size:  1048576 bytes  Time: min=  672.47 μs avg=  733.31 μs max= 2696.25μs  BW= 1363.68 MB/s
+Bcast (Merkle)       Size:  1048576 bytes  Time: min=20507.07 μs avg=35546.39 μs max=47019.24μs  BW=   28.13 MB/s
+---------------------------------------------
+Bcast Buffer size: 2097152 bytes, item count: 64
+Bcast                Size:  2097152 bytes  Time: min= 1280.73 μs avg= 1349.90 μs max= 1882.68μs  BW= 1481.59 MB/s
+Bcast (Merkle)       Size:  2097152 bytes  Time: min=22030.40 μs avg=35689.50 μs max=48174.37μs  BW=   56.04 MB/s
+---------------------------------------------
+Bcast Buffer size: 4194304 bytes, item count: 64
+Bcast                Size:  4194304 bytes  Time: min= 2410.55 μs avg= 2584.33 μs max=10838.61μs  BW= 1547.79 MB/s
+Bcast (Merkle)       Size:  4194304 bytes  Time: min=24599.91 μs avg=36824.88 μs max=45220.54μs  BW=  108.62 MB/s
+---------------------------------------------
+Bcast Buffer size: 8388608 bytes, item count: 64
+Bcast                Size:  8388608 bytes  Time: min= 4828.03 μs avg= 5115.48 μs max=14652.33μs  BW= 1563.88 MB/s
+Bcast (Merkle)       Size:  8388608 bytes  Time: min=28781.05 μs avg=40303.23 μs max=52878.29μs  BW=  198.50 MB/s
+---------------------------------------------
+Bcast Buffer size: 16777216 bytes, item count: 64
+Bcast                Size: 16777216 bytes  Time: min= 9037.50 μs avg= 9274.69 μs max=10263.50μs  BW= 1725.12 MB/s
+Bcast (Merkle)       Size: 16777216 bytes  Time: min=38047.01 μs avg=49666.44 μs max=59209.80μs  BW=  322.15 MB/s
+---------------------------------------------
+Bcast Buffer size: 33554432 bytes, item count: 64
+Bcast                Size: 33554432 bytes  Time: min=15742.68 μs avg=15930.69 μs max=21806.38μs  BW= 2008.70 MB/s
+Bcast (Merkle)       Size: 33554432 bytes  Time: min=53722.61 μs avg=64137.71 μs max=76427.58μs  BW=  498.93 MB/s
+---------------------------------------------
+Bcast Buffer size: 67108864 bytes, item count: 64
+Bcast                Size: 67108864 bytes  Time: min=28958.98 μs avg=29421.35 μs max=59023.08μs  BW= 2175.29 MB/s
+Bcast (Merkle)       Size: 67108864 bytes  Time: min=84300.58 μs avg=94839.76 μs max=117575.37μs  BW=  674.82 MB/s
+---------------------------------------------
+Bcast Buffer size: 134217728 bytes, item count: 64
+Bcast                Size: 134217728 bytes  Time: min=52418.92 μs avg=52990.98 μs max=84628.29μs  BW= 2415.51 MB/s
+Bcast (Merkle)       Size: 134217728 bytes  Time: min=140784.32 μs avg=151440.33 μs max=187340.96μs  BW=  845.22 MB/s
+---------------------------------------------
+Bcast Buffer size: 268435456 bytes, item count: 64
+Bcast                Size: 268435456 bytes  Time: min=99610.09 μs avg=100629.60 μs max=161350.92μs  BW= 2543.98 MB/s
+Bcast (Merkle)       Size: 268435456 bytes  Time: min=258789.29 μs avg=263448.39 μs max=321605.47μs  BW=  971.73 MB/s
+---------------------------------------------
+Bcast Buffer size: 128 bytes, item count: 128
+Bcast                Size:      128 bytes  Time: min=    1.51 μs avg=    2.29 μs max=   10.72μs  BW=   53.38 MB/s
+Bcast (Merkle)       Size:      128 bytes  Time: min=20889.72 μs avg=34037.69 μs max=48166.12μs  BW=    0.00 MB/s
+---------------------------------------------
+Bcast Buffer size: 256 bytes, item count: 128
+Bcast                Size:      256 bytes  Time: min=    1.78 μs avg=    2.60 μs max=    5.38μs  BW=   93.88 MB/s
+Bcast (Merkle)       Size:      256 bytes  Time: min=22129.14 μs avg=33706.59 μs max=46702.88μs  BW=    0.01 MB/s
+---------------------------------------------
+Bcast Buffer size: 512 bytes, item count: 128
+Bcast                Size:      512 bytes  Time: min=    2.31 μs avg=    3.76 μs max=    6.24μs  BW=  129.98 MB/s
+Bcast (Merkle)       Size:      512 bytes  Time: min=19919.32 μs avg=34103.79 μs max=43180.49μs  BW=    0.01 MB/s
+---------------------------------------------
+Bcast Buffer size: 1024 bytes, item count: 128
+Bcast                Size:     1024 bytes  Time: min=    3.42 μs avg=    4.71 μs max=    8.55μs  BW=  207.29 MB/s
+Bcast (Merkle)       Size:     1024 bytes  Time: min=21326.72 μs avg=33655.85 μs max=44174.02μs  BW=    0.03 MB/s
+---------------------------------------------
+Bcast Buffer size: 2048 bytes, item count: 128
+Bcast                Size:     2048 bytes  Time: min=    5.01 μs avg=    6.39 μs max=   30.82μs  BW=  305.77 MB/s
+Bcast (Merkle)       Size:     2048 bytes  Time: min=20422.72 μs avg=34000.10 μs max=46375.67μs  BW=    0.06 MB/s
+---------------------------------------------
+Bcast Buffer size: 4096 bytes, item count: 128
+Bcast                Size:     4096 bytes  Time: min=    4.26 μs avg=    5.13 μs max=    9.07μs  BW=  760.82 MB/s
+Bcast (Merkle)       Size:     4096 bytes  Time: min=19903.45 μs avg=34094.06 μs max=41794.44μs  BW=    0.11 MB/s
+---------------------------------------------
+Bcast Buffer size: 8192 bytes, item count: 128
+Bcast                Size:     8192 bytes  Time: min=    6.83 μs avg=    7.95 μs max=   15.54μs  BW=  982.38 MB/s
+Bcast (Merkle)       Size:     8192 bytes  Time: min=20024.18 μs avg=33944.53 μs max=47974.81μs  BW=    0.23 MB/s
+---------------------------------------------
+Bcast Buffer size: 16384 bytes, item count: 128
+Bcast                Size:    16384 bytes  Time: min=   38.91 μs avg=   45.17 μs max=  150.19μs  BW=  345.95 MB/s
+Bcast (Merkle)       Size:    16384 bytes  Time: min=27311.00 μs avg=34282.82 μs max=52552.07μs  BW=    0.46 MB/s
+---------------------------------------------
+Bcast Buffer size: 32768 bytes, item count: 128
+Bcast                Size:    32768 bytes  Time: min=   38.02 μs avg=  154.93 μs max=  171.64μs  BW=  201.70 MB/s
+Bcast (Merkle)       Size:    32768 bytes  Time: min=19977.91 μs avg=34086.24 μs max=46311.77μs  BW=    0.92 MB/s
+---------------------------------------------
+Bcast Buffer size: 65536 bytes, item count: 128
+Bcast                Size:    65536 bytes  Time: min=   72.98 μs avg=  152.17 μs max=  180.89μs  BW=  410.71 MB/s
+Bcast (Merkle)       Size:    65536 bytes  Time: min=20702.68 μs avg=34089.20 μs max=48798.01μs  BW=    1.83 MB/s
+---------------------------------------------
+Bcast Buffer size: 131072 bytes, item count: 128
+Bcast                Size:   131072 bytes  Time: min=  115.22 μs avg=  473.81 μs max=  627.96μs  BW=  263.82 MB/s
+Bcast (Merkle)       Size:   131072 bytes  Time: min=20125.02 μs avg=33982.44 μs max=44133.53μs  BW=    3.68 MB/s
+---------------------------------------------
+Bcast Buffer size: 262144 bytes, item count: 128
+Bcast                Size:   262144 bytes  Time: min=  217.81 μs avg=  364.96 μs max=  571.40μs  BW=  685.01 MB/s
+Bcast (Merkle)       Size:   262144 bytes  Time: min=20026.64 μs avg=34036.83 μs max=45976.11μs  BW=    7.34 MB/s
+---------------------------------------------
+Bcast Buffer size: 524288 bytes, item count: 128
+Bcast                Size:   524288 bytes  Time: min=  396.01 μs avg=  668.73 μs max=  879.83μs  BW=  747.68 MB/s
+Bcast (Merkle)       Size:   524288 bytes  Time: min=22845.03 μs avg=34565.38 μs max=43322.10μs  BW=   14.47 MB/s
+---------------------------------------------
+Bcast Buffer size: 1048576 bytes, item count: 128
+Bcast                Size:  1048576 bytes  Time: min=  646.61 μs avg=  713.98 μs max= 3421.52μs  BW= 1400.59 MB/s
+Bcast (Merkle)       Size:  1048576 bytes  Time: min=21170.89 μs avg=35143.58 μs max=48130.11μs  BW=   28.45 MB/s
+---------------------------------------------
+Bcast Buffer size: 2097152 bytes, item count: 128
+Bcast                Size:  2097152 bytes  Time: min= 1353.81 μs avg= 1445.16 μs max= 2107.27μs  BW= 1383.93 MB/s
+Bcast (Merkle)       Size:  2097152 bytes  Time: min=21805.12 μs avg=35356.54 μs max=48897.16μs  BW=   56.57 MB/s
+---------------------------------------------
+Bcast Buffer size: 4194304 bytes, item count: 128
+Bcast                Size:  4194304 bytes  Time: min= 2428.36 μs avg= 2505.56 μs max= 3202.12μs  BW= 1596.45 MB/s
+Bcast (Merkle)       Size:  4194304 bytes  Time: min=23213.68 μs avg=36332.60 μs max=47670.70μs  BW=  110.09 MB/s
+---------------------------------------------
+Bcast Buffer size: 8388608 bytes, item count: 128
+Bcast                Size:  8388608 bytes  Time: min= 4604.88 μs avg= 4719.63 μs max= 5643.35μs  BW= 1695.05 MB/s
+Bcast (Merkle)       Size:  8388608 bytes  Time: min=27248.09 μs avg=39060.54 μs max=51767.61μs  BW=  204.81 MB/s
+---------------------------------------------
+Bcast Buffer size: 16777216 bytes, item count: 128
+Bcast                Size: 16777216 bytes  Time: min= 8938.09 μs avg= 9082.59 μs max= 9710.08μs  BW= 1761.61 MB/s
+Bcast (Merkle)       Size: 16777216 bytes  Time: min=34000.06 μs avg=44468.26 μs max=59387.01μs  BW=  359.81 MB/s
+---------------------------------------------
+Bcast Buffer size: 33554432 bytes, item count: 128
+Bcast                Size: 33554432 bytes  Time: min=15420.72 μs avg=16319.06 μs max=25051.91μs  BW= 1960.90 MB/s
+Bcast (Merkle)       Size: 33554432 bytes  Time: min=46984.38 μs avg=56585.35 μs max=73827.74μs  BW=  565.52 MB/s
+---------------------------------------------
+Bcast Buffer size: 67108864 bytes, item count: 128
+Bcast                Size: 67108864 bytes  Time: min=28735.84 μs avg=29210.36 μs max=47412.91μs  BW= 2191.00 MB/s
+Bcast (Merkle)       Size: 67108864 bytes  Time: min=68632.67 μs avg=79868.94 μs max=97676.56μs  BW=  801.31 MB/s
+---------------------------------------------
+Bcast Buffer size: 134217728 bytes, item count: 128
+Bcast                Size: 134217728 bytes  Time: min=53151.24 μs avg=53860.90 μs max=82909.40μs  BW= 2376.49 MB/s
+Bcast (Merkle)       Size: 134217728 bytes  Time: min=113214.12 μs avg=124001.28 μs max=152527.73μs  BW= 1032.25 MB/s
+---------------------------------------------
+Bcast Buffer size: 268435456 bytes, item count: 128
+Bcast                Size: 268435456 bytes  Time: min=104016.40 μs avg=104992.07 μs max=160256.77μs  BW= 2438.28 MB/s
+Bcast (Merkle)       Size: 268435456 bytes  Time: min=196386.59 μs avg=210611.84 μs max=264456.65μs  BW= 1215.51 MB/s
+---------------------------------------------
+Bcast Buffer size: 128 bytes, item count: 256
+Bcast                Size:      128 bytes  Time: min=    1.72 μs avg=    2.47 μs max=   12.40μs  BW=   49.41 MB/s
+Bcast (Merkle)       Size:      128 bytes  Time: min=20740.50 μs avg=33289.03 μs max=43035.09μs  BW=    0.00 MB/s
+---------------------------------------------
+Bcast Buffer size: 256 bytes, item count: 256
+Bcast                Size:      256 bytes  Time: min=    1.82 μs avg=    2.60 μs max=    5.54μs  BW=   93.77 MB/s
+Bcast (Merkle)       Size:      256 bytes  Time: min=28795.15 μs avg=33877.18 μs max=43516.19μs  BW=    0.01 MB/s
+---------------------------------------------
+Bcast Buffer size: 512 bytes, item count: 256
+Bcast                Size:      512 bytes  Time: min=    2.26 μs avg=    3.78 μs max=   16.49μs  BW=  129.17 MB/s
+Bcast (Merkle)       Size:      512 bytes  Time: min=20134.54 μs avg=34258.60 μs max=46237.15μs  BW=    0.01 MB/s
+---------------------------------------------
+Bcast Buffer size: 1024 bytes, item count: 256
+Bcast                Size:     1024 bytes  Time: min=    3.05 μs avg=    4.69 μs max=   19.11μs  BW=  208.21 MB/s
+Bcast (Merkle)       Size:     1024 bytes  Time: min=25229.02 μs avg=33747.56 μs max=49114.22μs  BW=    0.03 MB/s
+---------------------------------------------
+Bcast Buffer size: 2048 bytes, item count: 256
+Bcast                Size:     2048 bytes  Time: min=    4.36 μs avg=    5.91 μs max=   11.78μs  BW=  330.27 MB/s
+Bcast (Merkle)       Size:     2048 bytes  Time: min=20809.85 μs avg=33862.72 μs max=46051.56μs  BW=    0.06 MB/s
+---------------------------------------------
+Bcast Buffer size: 4096 bytes, item count: 256
+Bcast                Size:     4096 bytes  Time: min=    4.00 μs avg=    5.33 μs max=   17.74μs  BW=  733.43 MB/s
+Bcast (Merkle)       Size:     4096 bytes  Time: min=19918.77 μs avg=34102.49 μs max=49994.54μs  BW=    0.11 MB/s
+---------------------------------------------
+Bcast Buffer size: 8192 bytes, item count: 256
+Bcast                Size:     8192 bytes  Time: min=    6.67 μs avg=    7.99 μs max=   13.64μs  BW=  977.69 MB/s
+Bcast (Merkle)       Size:     8192 bytes  Time: min=20331.64 μs avg=33576.98 μs max=47909.02μs  BW=    0.23 MB/s
+---------------------------------------------
+Bcast Buffer size: 16384 bytes, item count: 256
+Bcast                Size:    16384 bytes  Time: min=   61.57 μs avg=   78.45 μs max=  181.88μs  BW=  199.18 MB/s
+Bcast (Merkle)       Size:    16384 bytes  Time: min=22942.68 μs avg=33935.03 μs max=50086.44μs  BW=    0.46 MB/s
+---------------------------------------------
+Bcast Buffer size: 32768 bytes, item count: 256
+Bcast                Size:    32768 bytes  Time: min=   38.08 μs avg=  107.29 μs max=  125.48μs  BW=  291.27 MB/s
+Bcast (Merkle)       Size:    32768 bytes  Time: min=20769.30 μs avg=34198.67 μs max=44984.09μs  BW=    0.91 MB/s
+---------------------------------------------
+Bcast Buffer size: 65536 bytes, item count: 256
+Bcast                Size:    65536 bytes  Time: min=   75.33 μs avg=  299.03 μs max=  321.30μs  BW=  209.01 MB/s
+Bcast (Merkle)       Size:    65536 bytes  Time: min=19622.49 μs avg=33921.60 μs max=44695.13μs  BW=    1.84 MB/s
+---------------------------------------------
+Bcast Buffer size: 131072 bytes, item count: 256
+Bcast                Size:   131072 bytes  Time: min=  118.36 μs avg=  344.66 μs max= 7464.65μs  BW=  362.67 MB/s
+Bcast (Merkle)       Size:   131072 bytes  Time: min=21226.88 μs avg=33889.61 μs max=39978.86μs  BW=    3.69 MB/s
+---------------------------------------------
+Bcast Buffer size: 262144 bytes, item count: 256
+Bcast                Size:   262144 bytes  Time: min=  208.87 μs avg=  356.66 μs max=  547.27μs  BW=  700.95 MB/s
+Bcast (Merkle)       Size:   262144 bytes  Time: min=20690.70 μs avg=34026.12 μs max=46517.28μs  BW=    7.35 MB/s
+---------------------------------------------
+Bcast Buffer size: 524288 bytes, item count: 256
+Bcast                Size:   524288 bytes  Time: min=  424.32 μs avg=  627.84 μs max=  872.16μs  BW=  796.39 MB/s
+Bcast (Merkle)       Size:   524288 bytes  Time: min=24442.48 μs avg=34867.48 μs max=43962.79μs  BW=   14.34 MB/s
+---------------------------------------------
+Bcast Buffer size: 1048576 bytes, item count: 256
+Bcast                Size:  1048576 bytes  Time: min=  673.69 μs avg=  727.40 μs max=  942.61μs  BW= 1374.76 MB/s
+Bcast (Merkle)       Size:  1048576 bytes  Time: min=21257.70 μs avg=34832.37 μs max=48914.22μs  BW=   28.71 MB/s
+---------------------------------------------
+Bcast Buffer size: 2097152 bytes, item count: 256
+Bcast                Size:  2097152 bytes  Time: min= 1310.38 μs avg= 1363.39 μs max= 1626.17μs  BW= 1466.93 MB/s
+Bcast (Merkle)       Size:  2097152 bytes  Time: min=21483.34 μs avg=35197.17 μs max=48540.69μs  BW=   56.82 MB/s
+---------------------------------------------
+Bcast Buffer size: 4194304 bytes, item count: 256
+Bcast                Size:  4194304 bytes  Time: min= 2375.43 μs avg= 2553.84 μs max= 3053.25μs  BW= 1566.27 MB/s
+Bcast (Merkle)       Size:  4194304 bytes  Time: min=22924.35 μs avg=35890.17 μs max=49368.30μs  BW=  111.45 MB/s
+---------------------------------------------
+Bcast Buffer size: 8388608 bytes, item count: 256
+Bcast                Size:  8388608 bytes  Time: min= 4886.96 μs avg= 5126.60 μs max=14187.71μs  BW= 1560.49 MB/s
+Bcast (Merkle)       Size:  8388608 bytes  Time: min=26331.51 μs avg=37460.06 μs max=49376.02μs  BW=  213.56 MB/s
+---------------------------------------------
+Bcast Buffer size: 16777216 bytes, item count: 256
+Bcast                Size: 16777216 bytes  Time: min= 9009.52 μs avg= 9327.47 μs max=17514.39μs  BW= 1715.36 MB/s
+Bcast (Merkle)       Size: 16777216 bytes  Time: min=31279.34 μs avg=43316.48 μs max=52416.84μs  BW=  369.37 MB/s
+---------------------------------------------
+Bcast Buffer size: 33554432 bytes, item count: 256
+Bcast                Size: 33554432 bytes  Time: min=15335.30 μs avg=15619.71 μs max=28015.39μs  BW= 2048.69 MB/s
+Bcast (Merkle)       Size: 33554432 bytes  Time: min=42256.20 μs avg=52759.50 μs max=62311.61μs  BW=  606.53 MB/s
+---------------------------------------------
+Bcast Buffer size: 67108864 bytes, item count: 256
+Bcast                Size: 67108864 bytes  Time: min=28122.93 μs avg=28864.55 μs max=49492.76μs  BW= 2217.25 MB/s
+Bcast (Merkle)       Size: 67108864 bytes  Time: min=62370.38 μs avg=71614.01 μs max=87828.49μs  BW=  893.68 MB/s
+---------------------------------------------
+Bcast Buffer size: 134217728 bytes, item count: 256
+Bcast                Size: 134217728 bytes  Time: min=51757.12 μs avg=52756.47 μs max=84681.47μs  BW= 2426.24 MB/s
+Bcast (Merkle)       Size: 134217728 bytes  Time: min=98754.76 μs avg=107948.09 μs max=138134.25μs  BW= 1185.76 MB/s
+---------------------------------------------
+Bcast Buffer size: 268435456 bytes, item count: 256
+Bcast                Size: 268435456 bytes  Time: min=100658.76 μs avg=101710.71 μs max=159646.30μs  BW= 2516.94 MB/s
+Bcast (Merkle)       Size: 268435456 bytes  Time: min=173400.70 μs avg=183364.34 μs max=244093.97μs  BW= 1396.13 MB/s
+---------------------------------------------
+Bcast Buffer size: 128 bytes, item count: 512
+Bcast                Size:      128 bytes  Time: min=    1.63 μs avg=    2.39 μs max=   10.28μs  BW=   51.06 MB/s
+Bcast (Merkle)       Size:      128 bytes  Time: min=19847.45 μs avg=32799.31 μs max=43469.55μs  BW=    0.00 MB/s
+---------------------------------------------
+Bcast Buffer size: 256 bytes, item count: 512
+Bcast                Size:      256 bytes  Time: min=    1.68 μs avg=    2.46 μs max=    5.10μs  BW=   99.25 MB/s
+Bcast (Merkle)       Size:      256 bytes  Time: min=19691.23 μs avg=33469.50 μs max=47867.67μs  BW=    0.01 MB/s
+---------------------------------------------
+Bcast Buffer size: 512 bytes, item count: 512
+Bcast                Size:      512 bytes  Time: min=    2.14 μs avg=    3.62 μs max=    5.82μs  BW=  134.93 MB/s
+Bcast (Merkle)       Size:      512 bytes  Time: min=19441.55 μs avg=33634.41 μs max=47982.08μs  BW=    0.01 MB/s
+---------------------------------------------
+Bcast Buffer size: 1024 bytes, item count: 512
+Bcast                Size:     1024 bytes  Time: min=    3.47 μs avg=    4.57 μs max=    5.46μs  BW=  213.46 MB/s
+Bcast (Merkle)       Size:     1024 bytes  Time: min=20885.90 μs avg=33924.39 μs max=46407.79μs  BW=    0.03 MB/s
+---------------------------------------------
+Bcast Buffer size: 2048 bytes, item count: 512
+Bcast                Size:     2048 bytes  Time: min=    5.00 μs avg=    5.90 μs max=    8.36μs  BW=  330.81 MB/s
+Bcast (Merkle)       Size:     2048 bytes  Time: min=19634.71 μs avg=34289.78 μs max=46649.72μs  BW=    0.06 MB/s
+---------------------------------------------
+Bcast Buffer size: 4096 bytes, item count: 512
+Bcast                Size:     4096 bytes  Time: min=    4.35 μs avg=    5.30 μs max=   20.83μs  BW=  737.50 MB/s
+Bcast (Merkle)       Size:     4096 bytes  Time: min=20962.11 μs avg=34069.28 μs max=45502.66μs  BW=    0.11 MB/s
+---------------------------------------------
+Bcast Buffer size: 8192 bytes, item count: 512
+Bcast                Size:     8192 bytes  Time: min=    6.77 μs avg=    7.72 μs max=   15.21μs  BW= 1012.38 MB/s
+Bcast (Merkle)       Size:     8192 bytes  Time: min=23167.94 μs avg=34023.01 μs max=46829.01μs  BW=    0.23 MB/s
+---------------------------------------------
+Bcast Buffer size: 16384 bytes, item count: 512
+Bcast                Size:    16384 bytes  Time: min=   53.27 μs avg=   81.51 μs max=  127.85μs  BW=  191.69 MB/s
+Bcast (Merkle)       Size:    16384 bytes  Time: min=21989.34 μs avg=33952.37 μs max=42565.77μs  BW=    0.46 MB/s
+---------------------------------------------
+Bcast Buffer size: 32768 bytes, item count: 512
+Bcast                Size:    32768 bytes  Time: min=   44.68 μs avg=  152.35 μs max=  168.60μs  BW=  205.13 MB/s
+Bcast (Merkle)       Size:    32768 bytes  Time: min=26974.80 μs avg=33933.96 μs max=43453.52μs  BW=    0.92 MB/s
+---------------------------------------------
+Bcast Buffer size: 65536 bytes, item count: 512
+Bcast                Size:    65536 bytes  Time: min=  115.00 μs avg=  341.46 μs max= 4169.98μs  BW=  183.04 MB/s
+Bcast (Merkle)       Size:    65536 bytes  Time: min=20744.66 μs avg=33761.53 μs max=47145.78μs  BW=    1.85 MB/s
+---------------------------------------------
+Bcast Buffer size: 131072 bytes, item count: 512
+Bcast                Size:   131072 bytes  Time: min=  107.60 μs avg=  504.46 μs max=  586.97μs  BW=  247.79 MB/s
+Bcast (Merkle)       Size:   131072 bytes  Time: min=20772.76 μs avg=34165.64 μs max=43598.66μs  BW=    3.66 MB/s
+---------------------------------------------
+Bcast Buffer size: 262144 bytes, item count: 512
+Bcast                Size:   262144 bytes  Time: min=  215.62 μs avg=  481.72 μs max= 1047.03μs  BW=  518.97 MB/s
+Bcast (Merkle)       Size:   262144 bytes  Time: min=20422.92 μs avg=33663.10 μs max=47061.79μs  BW=    7.43 MB/s
+---------------------------------------------
+Bcast Buffer size: 524288 bytes, item count: 512
+Bcast                Size:   524288 bytes  Time: min=  414.99 μs avg=  689.56 μs max= 7558.37μs  BW=  725.10 MB/s
+Bcast (Merkle)       Size:   524288 bytes  Time: min=21596.56 μs avg=34209.05 μs max=45462.24μs  BW=   14.62 MB/s
+---------------------------------------------
+Bcast Buffer size: 1048576 bytes, item count: 512
+Bcast                Size:  1048576 bytes  Time: min=  656.14 μs avg=  701.74 μs max=  914.43μs  BW= 1425.03 MB/s
+Bcast (Merkle)       Size:  1048576 bytes  Time: min=21143.70 μs avg=34781.87 μs max=47181.64μs  BW=   28.75 MB/s
+---------------------------------------------
+Bcast Buffer size: 2097152 bytes, item count: 512
+Bcast                Size:  2097152 bytes  Time: min= 1301.09 μs avg= 1367.98 μs max= 1650.12μs  BW= 1462.01 MB/s
+Bcast (Merkle)       Size:  2097152 bytes  Time: min=20922.29 μs avg=35000.72 μs max=49039.00μs  BW=   57.14 MB/s
+---------------------------------------------
+Bcast Buffer size: 4194304 bytes, item count: 512
+Bcast                Size:  4194304 bytes  Time: min= 2281.67 μs avg= 2602.10 μs max=12667.74μs  BW= 1537.22 MB/s
+Bcast (Merkle)       Size:  4194304 bytes  Time: min=23174.44 μs avg=35884.48 μs max=49046.79μs  BW=  111.47 MB/s
+---------------------------------------------
+Bcast Buffer size: 8388608 bytes, item count: 512
+Bcast                Size:  8388608 bytes  Time: min= 4444.80 μs avg= 4537.63 μs max= 5227.84μs  BW= 1763.04 MB/s
+Bcast (Merkle)       Size:  8388608 bytes  Time: min=25419.97 μs avg=37516.32 μs max=51650.36μs  BW=  213.24 MB/s
+---------------------------------------------
+Bcast Buffer size: 16777216 bytes, item count: 512
+Bcast                Size: 16777216 bytes  Time: min= 8837.53 μs avg= 8979.08 μs max=10246.84μs  BW= 1781.92 MB/s
+Bcast (Merkle)       Size: 16777216 bytes  Time: min=32501.77 μs avg=42969.91 μs max=58045.33μs  BW=  372.35 MB/s
+---------------------------------------------
+Bcast Buffer size: 33554432 bytes, item count: 512
+Bcast                Size: 33554432 bytes  Time: min=15657.81 μs avg=15873.64 μs max=28223.48μs  BW= 2015.92 MB/s
+Bcast (Merkle)       Size: 33554432 bytes  Time: min=40150.68 μs avg=50642.58 μs max=61378.48μs  BW=  631.88 MB/s
+---------------------------------------------
+Bcast Buffer size: 67108864 bytes, item count: 512
+Bcast                Size: 67108864 bytes  Time: min=29156.39 μs avg=29931.40 μs max=48893.67μs  BW= 2138.22 MB/s
+Bcast (Merkle)       Size: 67108864 bytes  Time: min=59049.23 μs avg=69555.09 μs max=87710.00μs  BW=  920.13 MB/s
+---------------------------------------------
+Bcast Buffer size: 134217728 bytes, item count: 512
+Bcast                Size: 134217728 bytes  Time: min=52882.87 μs avg=53574.41 μs max=83000.31μs  BW= 2389.20 MB/s
+Bcast (Merkle)       Size: 134217728 bytes  Time: min=92541.18 μs avg=102172.68 μs max=134709.08μs  BW= 1252.78 MB/s
+---------------------------------------------
+Bcast Buffer size: 268435456 bytes, item count: 512
+Bcast                Size: 268435456 bytes  Time: min=102768.54 μs avg=103759.90 μs max=161987.84μs  BW= 2467.23 MB/s
+Bcast (Merkle)       Size: 268435456 bytes  Time: min=160219.43 μs avg=169899.13 μs max=227643.33μs  BW= 1506.78 MB/s
+---------------------------------------------
+Bcast Buffer size: 128 bytes, item count: 1024
+Bcast                Size:      128 bytes  Time: min=    1.65 μs avg=    2.35 μs max=    9.42μs  BW=   51.97 MB/s
+Bcast (Merkle)       Size:      128 bytes  Time: min=20157.96 μs avg=33607.28 μs max=46579.49μs  BW=    0.00 MB/s
+---------------------------------------------
+Bcast Buffer size: 256 bytes, item count: 1024
+Bcast                Size:      256 bytes  Time: min=    1.76 μs avg=    2.59 μs max=    4.78μs  BW=   94.44 MB/s
+Bcast (Merkle)       Size:      256 bytes  Time: min=20740.77 μs avg=34057.96 μs max=46121.65μs  BW=    0.01 MB/s
+---------------------------------------------
+Bcast Buffer size: 512 bytes, item count: 1024
+Bcast                Size:      512 bytes  Time: min=    2.42 μs avg=    3.74 μs max=    6.35μs  BW=  130.59 MB/s
+Bcast (Merkle)       Size:      512 bytes  Time: min=24584.44 μs avg=33960.61 μs max=46941.06μs  BW=    0.01 MB/s
+---------------------------------------------
+Bcast Buffer size: 1024 bytes, item count: 1024
+Bcast                Size:     1024 bytes  Time: min=    2.72 μs avg=    4.69 μs max=   12.49μs  BW=  208.42 MB/s
+Bcast (Merkle)       Size:     1024 bytes  Time: min=21242.84 μs avg=33853.38 μs max=44039.25μs  BW=    0.03 MB/s
+---------------------------------------------
+Bcast Buffer size: 2048 bytes, item count: 1024
+Bcast                Size:     2048 bytes  Time: min=    4.69 μs avg=    5.96 μs max=   13.42μs  BW=  327.46 MB/s
+Bcast (Merkle)       Size:     2048 bytes  Time: min=21839.78 μs avg=33884.48 μs max=44308.12μs  BW=    0.06 MB/s
+---------------------------------------------
+Bcast Buffer size: 4096 bytes, item count: 1024
+Bcast                Size:     4096 bytes  Time: min=    4.35 μs avg=    4.95 μs max=    7.06μs  BW=  789.48 MB/s
+Bcast (Merkle)       Size:     4096 bytes  Time: min=20458.78 μs avg=33949.95 μs max=47829.04μs  BW=    0.12 MB/s
+---------------------------------------------
+Bcast Buffer size: 8192 bytes, item count: 1024
+Bcast                Size:     8192 bytes  Time: min=    5.94 μs avg=    7.18 μs max=    8.34μs  BW= 1088.18 MB/s
+Bcast (Merkle)       Size:     8192 bytes  Time: min=21754.61 μs avg=33913.76 μs max=47151.65μs  BW=    0.23 MB/s
+---------------------------------------------
+Bcast Buffer size: 16384 bytes, item count: 1024
+Bcast                Size:    16384 bytes  Time: min=   58.27 μs avg=   76.40 μs max=  139.71μs  BW=  204.52 MB/s
+Bcast (Merkle)       Size:    16384 bytes  Time: min=20011.45 μs avg=34244.54 μs max=45937.69μs  BW=    0.46 MB/s
+---------------------------------------------
+Bcast Buffer size: 32768 bytes, item count: 1024
+Bcast                Size:    32768 bytes  Time: min=   36.02 μs avg=  156.44 μs max=  814.63μs  BW=  199.75 MB/s
+Bcast (Merkle)       Size:    32768 bytes  Time: min=20009.65 μs avg=34235.19 μs max=46933.01μs  BW=    0.91 MB/s
+---------------------------------------------
+Bcast Buffer size: 65536 bytes, item count: 1024
+Bcast                Size:    65536 bytes  Time: min=   52.89 μs avg=  256.94 μs max= 6147.74μs  BW=  243.25 MB/s
+Bcast (Merkle)       Size:    65536 bytes  Time: min=20832.14 μs avg=33848.50 μs max=44439.07μs  BW=    1.85 MB/s
+---------------------------------------------
+Bcast Buffer size: 131072 bytes, item count: 1024
+Bcast                Size:   131072 bytes  Time: min=  122.03 μs avg=  364.34 μs max= 6412.64μs  BW=  343.09 MB/s
+Bcast (Merkle)       Size:   131072 bytes  Time: min=20821.99 μs avg=34105.78 μs max=45164.98μs  BW=    3.67 MB/s
+---------------------------------------------
+Bcast Buffer size: 262144 bytes, item count: 1024
+Bcast                Size:   262144 bytes  Time: min=  214.87 μs avg=  343.58 μs max=  548.72μs  BW=  727.63 MB/s
+Bcast (Merkle)       Size:   262144 bytes  Time: min=25986.00 μs avg=34106.34 μs max=44378.70μs  BW=    7.33 MB/s
+---------------------------------------------
+Bcast Buffer size: 524288 bytes, item count: 1024
+Bcast                Size:   524288 bytes  Time: min=  417.23 μs avg=  706.39 μs max=  901.01μs  BW=  707.83 MB/s
+Bcast (Merkle)       Size:   524288 bytes  Time: min=22536.62 μs avg=34133.33 μs max=45589.64μs  BW=   14.65 MB/s
+---------------------------------------------
+Bcast Buffer size: 1048576 bytes, item count: 1024
+Bcast                Size:  1048576 bytes  Time: min=  663.60 μs avg=  704.24 μs max=  970.63μs  BW= 1419.97 MB/s
+Bcast (Merkle)       Size:  1048576 bytes  Time: min=20314.75 μs avg=34855.46 μs max=50009.43μs  BW=   28.69 MB/s
+---------------------------------------------
+Bcast Buffer size: 2097152 bytes, item count: 1024
+Bcast                Size:  2097152 bytes  Time: min= 1352.31 μs avg= 1420.56 μs max= 1710.37μs  BW= 1407.89 MB/s
+Bcast (Merkle)       Size:  2097152 bytes  Time: min=21089.24 μs avg=35154.58 μs max=47495.38μs  BW=   56.89 MB/s
+---------------------------------------------
+Bcast Buffer size: 4194304 bytes, item count: 1024
+Bcast                Size:  4194304 bytes  Time: min= 2296.66 μs avg= 2369.10 μs max= 2665.00μs  BW= 1688.40 MB/s
+Bcast (Merkle)       Size:  4194304 bytes  Time: min=22825.18 μs avg=35811.27 μs max=50564.91μs  BW=  111.70 MB/s
+---------------------------------------------
+Bcast Buffer size: 8388608 bytes, item count: 1024
+Bcast                Size:  8388608 bytes  Time: min= 4450.80 μs avg= 4893.30 μs max= 5383.24μs  BW= 1634.89 MB/s
+Bcast (Merkle)       Size:  8388608 bytes  Time: min=25618.83 μs avg=37890.05 μs max=50357.04μs  BW=  211.14 MB/s
+---------------------------------------------
+Bcast Buffer size: 16777216 bytes, item count: 1024
+Bcast                Size: 16777216 bytes  Time: min= 8800.07 μs avg= 9010.45 μs max= 9817.85μs  BW= 1775.72 MB/s
+Bcast (Merkle)       Size: 16777216 bytes  Time: min=30744.01 μs avg=41553.81 μs max=54490.15μs  BW=  385.04 MB/s
+---------------------------------------------
+Bcast Buffer size: 33554432 bytes, item count: 1024
+Bcast                Size: 33554432 bytes  Time: min=15607.22 μs avg=15831.42 μs max=28109.74μs  BW= 2021.30 MB/s
+Bcast (Merkle)       Size: 33554432 bytes  Time: min=39725.16 μs avg=50038.46 μs max=70715.99μs  BW=  639.51 MB/s
+---------------------------------------------
+Bcast Buffer size: 67108864 bytes, item count: 1024
+Bcast                Size: 67108864 bytes  Time: min=28482.17 μs avg=29306.52 μs max=47094.30μs  BW= 2183.81 MB/s
+Bcast (Merkle)       Size: 67108864 bytes  Time: min=58677.26 μs avg=67900.14 μs max=81211.73μs  BW=  942.56 MB/s
+---------------------------------------------
+Bcast Buffer size: 134217728 bytes, item count: 1024
+Bcast                Size: 134217728 bytes  Time: min=52581.05 μs avg=53162.67 μs max=85421.72μs  BW= 2407.70 MB/s
+Bcast (Merkle)       Size: 134217728 bytes  Time: min=89741.78 μs avg=99391.30 μs max=138788.79μs  BW= 1287.84 MB/s
+---------------------------------------------
+Bcast Buffer size: 268435456 bytes, item count: 1024
+Bcast                Size: 268435456 bytes  Time: min=102311.20 μs avg=103278.90 μs max=160382.40μs  BW= 2478.73 MB/s
+Bcast (Merkle)       Size: 268435456 bytes  Time: min=153402.77 μs avg=162183.85 μs max=217423.37μs  BW= 1578.46 MB/s
+---------------------------------------------
+Bcast Buffer size: 128 bytes, item count: 2048
+Bcast                Size:      128 bytes  Time: min=    1.78 μs avg=    2.46 μs max=   10.79μs  BW=   49.63 MB/s
+Bcast (Merkle)       Size:      128 bytes  Time: min=19987.20 μs avg=33208.11 μs max=45522.78μs  BW=    0.00 MB/s
+---------------------------------------------
+Bcast Buffer size: 256 bytes, item count: 2048
+Bcast                Size:      256 bytes  Time: min=    1.89 μs avg=    2.57 μs max=    4.49μs  BW=   95.01 MB/s
+Bcast (Merkle)       Size:      256 bytes  Time: min=19589.34 μs avg=33973.96 μs max=55435.60μs  BW=    0.01 MB/s
+---------------------------------------------
+Bcast Buffer size: 512 bytes, item count: 2048
+Bcast                Size:      512 bytes  Time: min=    2.76 μs avg=    3.90 μs max=    6.90μs  BW=  125.14 MB/s
+Bcast (Merkle)       Size:      512 bytes  Time: min=19363.50 μs avg=33810.09 μs max=49573.55μs  BW=    0.01 MB/s
+---------------------------------------------
+Bcast Buffer size: 1024 bytes, item count: 2048
+Bcast                Size:     1024 bytes  Time: min=    3.59 μs avg=    4.66 μs max=    5.79μs  BW=  209.56 MB/s
+Bcast (Merkle)       Size:     1024 bytes  Time: min=23976.55 μs avg=34016.38 μs max=45131.23μs  BW=    0.03 MB/s
+---------------------------------------------
+Bcast Buffer size: 2048 bytes, item count: 2048
+Bcast                Size:     2048 bytes  Time: min=    4.70 μs avg=    5.70 μs max=    9.04μs  BW=  342.41 MB/s
+Bcast (Merkle)       Size:     2048 bytes  Time: min=19791.16 μs avg=33756.67 μs max=47804.70μs  BW=    0.06 MB/s
+---------------------------------------------
+Bcast Buffer size: 4096 bytes, item count: 2048
+Bcast                Size:     4096 bytes  Time: min=    4.11 μs avg=    4.92 μs max=   15.08μs  BW=  793.40 MB/s
+Bcast (Merkle)       Size:     4096 bytes  Time: min=20829.49 μs avg=33886.28 μs max=45107.42μs  BW=    0.12 MB/s
+---------------------------------------------
+Bcast Buffer size: 8192 bytes, item count: 2048
+Bcast                Size:     8192 bytes  Time: min=    6.32 μs avg=   58.55 μs max= 5068.95μs  BW=  133.43 MB/s
+Bcast (Merkle)       Size:     8192 bytes  Time: min=20948.53 μs avg=34041.51 μs max=47774.59μs  BW=    0.23 MB/s
+---------------------------------------------
+Bcast Buffer size: 16384 bytes, item count: 2048
+Bcast                Size:    16384 bytes  Time: min=   50.62 μs avg=   60.14 μs max=  130.80μs  BW=  259.80 MB/s
+Bcast (Merkle)       Size:    16384 bytes  Time: min=20055.26 μs avg=34352.36 μs max=44635.34μs  BW=    0.45 MB/s
+---------------------------------------------
+Bcast Buffer size: 32768 bytes, item count: 2048
+Bcast                Size:    32768 bytes  Time: min=   37.11 μs avg=  153.11 μs max=  182.75μs  BW=  204.10 MB/s
+Bcast (Merkle)       Size:    32768 bytes  Time: min=25647.69 μs avg=34461.80 μs max=46464.45μs  BW=    0.91 MB/s
+---------------------------------------------
+Bcast Buffer size: 65536 bytes, item count: 2048
+Bcast                Size:    65536 bytes  Time: min=   69.99 μs avg=  302.85 μs max=  321.10μs  BW=  206.37 MB/s
+Bcast (Merkle)       Size:    65536 bytes  Time: min=25099.62 μs avg=34217.66 μs max=45206.24μs  BW=    1.83 MB/s
+---------------------------------------------
+Bcast Buffer size: 131072 bytes, item count: 2048
+Bcast                Size:   131072 bytes  Time: min=  112.05 μs avg=  324.28 μs max=  384.99μs  BW=  385.48 MB/s
+Bcast (Merkle)       Size:   131072 bytes  Time: min=20205.77 μs avg=34387.11 μs max=46976.85μs  BW=    3.64 MB/s
+---------------------------------------------
+Bcast Buffer size: 262144 bytes, item count: 2048
+Bcast                Size:   262144 bytes  Time: min=  217.09 μs avg=  352.67 μs max=  545.52μs  BW=  708.87 MB/s
+Bcast (Merkle)       Size:   262144 bytes  Time: min=21803.82 μs avg=34059.97 μs max=43837.02μs  BW=    7.34 MB/s
+---------------------------------------------
+Bcast Buffer size: 524288 bytes, item count: 2048
+Bcast                Size:   524288 bytes  Time: min=  408.51 μs avg=  708.02 μs max=  877.75μs  BW=  706.20 MB/s
+Bcast (Merkle)       Size:   524288 bytes  Time: min=21182.16 μs avg=34231.81 μs max=47350.73μs  BW=   14.61 MB/s
+---------------------------------------------
+Bcast Buffer size: 1048576 bytes, item count: 2048
+Bcast                Size:  1048576 bytes  Time: min=  634.85 μs avg=  766.73 μs max= 3707.38μs  BW= 1304.24 MB/s
+Bcast (Merkle)       Size:  1048576 bytes  Time: min=20800.00 μs avg=34522.73 μs max=46951.77μs  BW=   28.97 MB/s
+---------------------------------------------
+Bcast Buffer size: 2097152 bytes, item count: 2048
+Bcast                Size:  2097152 bytes  Time: min= 1318.80 μs avg= 1386.66 μs max= 1669.98μs  BW= 1442.31 MB/s
+Bcast (Merkle)       Size:  2097152 bytes  Time: min=23638.44 μs avg=35169.59 μs max=48127.64μs  BW=   56.87 MB/s
+---------------------------------------------
+Bcast Buffer size: 4194304 bytes, item count: 2048
+Bcast                Size:  4194304 bytes  Time: min= 2255.98 μs avg= 2336.21 μs max= 2617.32μs  BW= 1712.17 MB/s
+Bcast (Merkle)       Size:  4194304 bytes  Time: min=23226.78 μs avg=36103.37 μs max=53991.99μs  BW=  110.79 MB/s
+---------------------------------------------
+Bcast Buffer size: 8388608 bytes, item count: 2048
+Bcast                Size:  8388608 bytes  Time: min= 4718.87 μs avg= 4862.62 μs max= 7765.82μs  BW= 1645.21 MB/s
+Bcast (Merkle)       Size:  8388608 bytes  Time: min=25872.20 μs avg=37657.59 μs max=52310.82μs  BW=  212.44 MB/s
+---------------------------------------------
+Bcast Buffer size: 16777216 bytes, item count: 2048
+Bcast                Size: 16777216 bytes  Time: min= 8455.63 μs avg= 8585.43 μs max= 9192.93μs  BW= 1863.62 MB/s
+Bcast (Merkle)       Size: 16777216 bytes  Time: min=29840.35 μs avg=41802.67 μs max=54721.35μs  BW=  382.75 MB/s
+---------------------------------------------
+Bcast Buffer size: 33554432 bytes, item count: 2048
+Bcast                Size: 33554432 bytes  Time: min=15550.68 μs avg=15757.68 μs max=28289.39μs  BW= 2030.76 MB/s
+Bcast (Merkle)       Size: 33554432 bytes  Time: min=42586.99 μs avg=50091.92 μs max=62067.94μs  BW=  638.83 MB/s
+---------------------------------------------
+Bcast Buffer size: 67108864 bytes, item count: 2048
+Bcast                Size: 67108864 bytes  Time: min=28485.72 μs avg=29009.61 μs max=46208.02μs  BW= 2206.17 MB/s
+Bcast (Merkle)       Size: 67108864 bytes  Time: min=56971.92 μs avg=67277.04 μs max=88544.98μs  BW=  951.29 MB/s
+---------------------------------------------
+Bcast Buffer size: 134217728 bytes, item count: 2048
+Bcast                Size: 134217728 bytes  Time: min=51622.03 μs avg=52466.46 μs max=82338.29μs  BW= 2439.65 MB/s
+Bcast (Merkle)       Size: 134217728 bytes  Time: min=88160.25 μs avg=97805.40 μs max=126529.98μs  BW= 1308.72 MB/s
+---------------------------------------------
+Bcast Buffer size: 268435456 bytes, item count: 2048
+Bcast                Size: 268435456 bytes  Time: min=99665.71 μs avg=100781.75 μs max=156898.84μs  BW= 2540.14 MB/s
+Bcast (Merkle)       Size: 268435456 bytes  Time: min=148904.42 μs avg=158850.08 μs max=214132.40μs  BW= 1611.58 MB/s
+---------------------------------------------
+Bcast Buffer size: 128 bytes, item count: 4096
+Bcast                Size:      128 bytes  Time: min=    1.67 μs avg=    2.53 μs max=   11.04μs  BW=   48.17 MB/s
+Bcast (Merkle)       Size:      128 bytes  Time: min=20260.70 μs avg=33053.62 μs max=46477.06μs  BW=    0.00 MB/s
+---------------------------------------------
+Bcast Buffer size: 256 bytes, item count: 4096
+Bcast                Size:      256 bytes  Time: min=    1.91 μs avg=    2.61 μs max=    4.71μs  BW=   93.64 MB/s
+Bcast (Merkle)       Size:      256 bytes  Time: min=25065.98 μs avg=33961.10 μs max=47879.24μs  BW=    0.01 MB/s
+---------------------------------------------
+Bcast Buffer size: 512 bytes, item count: 4096
+Bcast                Size:      512 bytes  Time: min=    2.25 μs avg=    3.65 μs max=    6.70μs  BW=  133.86 MB/s
+Bcast (Merkle)       Size:      512 bytes  Time: min=22217.35 μs avg=33704.75 μs max=41333.04μs  BW=    0.01 MB/s
+---------------------------------------------
+Bcast Buffer size: 1024 bytes, item count: 4096
+Bcast                Size:     1024 bytes  Time: min=    3.12 μs avg=    4.36 μs max=    5.48μs  BW=  224.15 MB/s
+Bcast (Merkle)       Size:     1024 bytes  Time: min=19964.26 μs avg=33701.03 μs max=49972.40μs  BW=    0.03 MB/s
+---------------------------------------------
+Bcast Buffer size: 2048 bytes, item count: 4096
+Bcast                Size:     2048 bytes  Time: min=    4.64 μs avg=    5.80 μs max=   16.19μs  BW=  337.00 MB/s
+Bcast (Merkle)       Size:     2048 bytes  Time: min=24464.95 μs avg=33894.01 μs max=44143.49μs  BW=    0.06 MB/s
+---------------------------------------------
+Bcast Buffer size: 4096 bytes, item count: 4096
+Bcast                Size:     4096 bytes  Time: min=    3.84 μs avg=    4.53 μs max=    8.46μs  BW=  861.63 MB/s
+Bcast (Merkle)       Size:     4096 bytes  Time: min=23227.03 μs avg=33799.50 μs max=47902.90μs  BW=    0.12 MB/s
+---------------------------------------------
+Bcast Buffer size: 8192 bytes, item count: 4096
+Bcast                Size:     8192 bytes  Time: min=    6.22 μs avg=    7.92 μs max=   20.43μs  BW=  986.46 MB/s
+Bcast (Merkle)       Size:     8192 bytes  Time: min=21348.23 μs avg=33880.07 μs max=43227.14μs  BW=    0.23 MB/s
+---------------------------------------------
+Bcast Buffer size: 16384 bytes, item count: 4096
+Bcast                Size:    16384 bytes  Time: min=   60.33 μs avg=   81.21 μs max=  169.82μs  BW=  192.41 MB/s
+Bcast (Merkle)       Size:    16384 bytes  Time: min=21661.41 μs avg=34620.04 μs max=48156.13μs  BW=    0.45 MB/s
+---------------------------------------------
+Bcast Buffer size: 32768 bytes, item count: 4096
+Bcast                Size:    32768 bytes  Time: min=   35.28 μs avg=  164.61 μs max= 4477.68μs  BW=  189.85 MB/s
+Bcast (Merkle)       Size:    32768 bytes  Time: min=20469.48 μs avg=34082.91 μs max=51780.55μs  BW=    0.92 MB/s
+---------------------------------------------
+Bcast Buffer size: 65536 bytes, item count: 4096
+Bcast                Size:    65536 bytes  Time: min=   61.02 μs avg=  243.44 μs max=  335.25μs  BW=  256.73 MB/s
+Bcast (Merkle)       Size:    65536 bytes  Time: min=20438.21 μs avg=34045.42 μs max=46135.54μs  BW=    1.84 MB/s
+---------------------------------------------
+Bcast Buffer size: 131072 bytes, item count: 4096
+Bcast                Size:   131072 bytes  Time: min=  110.90 μs avg=  232.57 μs max=  315.57μs  BW=  537.48 MB/s
+Bcast (Merkle)       Size:   131072 bytes  Time: min=23314.63 μs avg=34163.86 μs max=53153.00μs  BW=    3.66 MB/s
+---------------------------------------------
+Bcast Buffer size: 262144 bytes, item count: 4096
+Bcast                Size:   262144 bytes  Time: min=  200.39 μs avg=  396.93 μs max= 4371.24μs  BW=  629.84 MB/s
+Bcast (Merkle)       Size:   262144 bytes  Time: min=23906.88 μs avg=34142.79 μs max=47904.73μs  BW=    7.32 MB/s
+---------------------------------------------
+Bcast Buffer size: 524288 bytes, item count: 4096
+Bcast                Size:   524288 bytes  Time: min=  415.46 μs avg=  607.36 μs max=  814.94μs  BW=  823.23 MB/s
+Bcast (Merkle)       Size:   524288 bytes  Time: min=21452.21 μs avg=34063.94 μs max=47810.99μs  BW=   14.68 MB/s
+---------------------------------------------
+Bcast Buffer size: 1048576 bytes, item count: 4096
+Bcast                Size:  1048576 bytes  Time: min=  637.19 μs avg=  679.71 μs max=  965.89μs  BW= 1471.21 MB/s
+Bcast (Merkle)       Size:  1048576 bytes  Time: min=20944.69 μs avg=34741.67 μs max=49941.86μs  BW=   28.78 MB/s
+---------------------------------------------
+Bcast Buffer size: 2097152 bytes, item count: 4096
+Bcast                Size:  2097152 bytes  Time: min= 1298.72 μs avg= 1400.44 μs max= 5537.94μs  BW= 1428.12 MB/s
+Bcast (Merkle)       Size:  2097152 bytes  Time: min=21386.91 μs avg=35001.30 μs max=47119.32μs  BW=   57.14 MB/s
+---------------------------------------------
+Bcast Buffer size: 4194304 bytes, item count: 4096
+Bcast                Size:  4194304 bytes  Time: min= 2408.03 μs avg= 2476.48 μs max= 2997.51μs  BW= 1615.20 MB/s
+Bcast (Merkle)       Size:  4194304 bytes  Time: min=22880.48 μs avg=35796.84 μs max=50146.52μs  BW=  111.74 MB/s
+---------------------------------------------
+Bcast Buffer size: 8388608 bytes, item count: 4096
+Bcast                Size:  8388608 bytes  Time: min= 4538.56 μs avg= 4627.56 μs max= 5558.60μs  BW= 1728.77 MB/s
+Bcast (Merkle)       Size:  8388608 bytes  Time: min=25055.33 μs avg=37507.64 μs max=49928.67μs  BW=  213.29 MB/s
+---------------------------------------------
+Bcast Buffer size: 16777216 bytes, item count: 4096
+Bcast                Size: 16777216 bytes  Time: min= 8499.57 μs avg= 8595.98 μs max= 9080.54μs  BW= 1861.34 MB/s
+Bcast (Merkle)       Size: 16777216 bytes  Time: min=30670.84 μs avg=41452.80 μs max=52513.38μs  BW=  385.98 MB/s
+---------------------------------------------
+Bcast Buffer size: 33554432 bytes, item count: 4096
+Bcast                Size: 33554432 bytes  Time: min=15230.66 μs avg=15513.28 μs max=28108.77μs  BW= 2062.75 MB/s
+Bcast (Merkle)       Size: 33554432 bytes  Time: min=39158.94 μs avg=49015.09 μs max=65170.74μs  BW=  652.86 MB/s
+---------------------------------------------
+Bcast Buffer size: 67108864 bytes, item count: 4096
+Bcast                Size: 67108864 bytes  Time: min=29002.44 μs avg=29361.26 μs max=48768.51μs  BW= 2179.74 MB/s
+Bcast (Merkle)       Size: 67108864 bytes  Time: min=55485.27 μs avg=66353.71 μs max=83552.25μs  BW=  964.53 MB/s
+---------------------------------------------
+Bcast Buffer size: 134217728 bytes, item count: 4096
+Bcast                Size: 134217728 bytes  Time: min=52542.49 μs avg=53485.70 μs max=82783.14μs  BW= 2393.16 MB/s
+Bcast (Merkle)       Size: 134217728 bytes  Time: min=87925.47 μs avg=97281.90 μs max=126357.89μs  BW= 1315.76 MB/s
+---------------------------------------------
+Bcast Buffer size: 268435456 bytes, item count: 4096
+Bcast                Size: 268435456 bytes  Time: min=102038.84 μs avg=102907.61 μs max=157560.70μs  BW= 2487.67 MB/s
+Bcast (Merkle)       Size: 268435456 bytes  Time: min=148307.87 μs avg=156969.56 μs max=216120.56μs  BW= 1630.89 MB/s
+---------------------------------------------

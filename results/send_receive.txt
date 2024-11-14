@@ -1,0 +1,797 @@
+MPI Benchmark Results
+=====================
+Processes: 2
+Iterations: 100
+
+Send-Recv Buffer size: 128 bytes, item count: 16
+Send-Recv            Size:      128 bytes  Time: min=    0.14 μs avg=    1.02 μs max=   13.36μs  BW=  120.01 MB/s
+Send-Recv (Merkle)   Size:      128 bytes  Time: min=    1.69 μs avg=    2.08 μs max=   28.07μs  BW=   58.70 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 256 bytes, item count: 16
+Send-Recv            Size:      256 bytes  Time: min=    0.14 μs avg=    0.25 μs max=    1.82μs  BW=  977.62 MB/s
+Send-Recv (Merkle)   Size:      256 bytes  Time: min=    1.83 μs avg=    1.91 μs max=    3.03μs  BW=  127.56 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 512 bytes, item count: 16
+Send-Recv            Size:      512 bytes  Time: min=    0.14 μs avg=    0.23 μs max=    1.46μs  BW= 2102.49 MB/s
+Send-Recv (Merkle)   Size:      512 bytes  Time: min=    2.15 μs avg=    2.23 μs max=    3.06μs  BW=  219.22 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 1024 bytes, item count: 16
+Send-Recv            Size:     1024 bytes  Time: min=    0.17 μs avg=    0.33 μs max=    2.09μs  BW= 2991.74 MB/s
+Send-Recv (Merkle)   Size:     1024 bytes  Time: min=    2.90 μs avg=    3.01 μs max=    5.10μs  BW=  324.03 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 2048 bytes, item count: 16
+Send-Recv            Size:     2048 bytes  Time: min=    0.21 μs avg=    0.45 μs max=    1.72μs  BW= 4376.46 MB/s
+Send-Recv (Merkle)   Size:     2048 bytes  Time: min=    4.34 μs avg=    4.49 μs max=    9.61μs  BW=  435.00 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 4096 bytes, item count: 16
+Send-Recv            Size:     4096 bytes  Time: min=    0.27 μs avg=    0.68 μs max=    2.53μs  BW= 5780.27 MB/s
+Send-Recv (Merkle)   Size:     4096 bytes  Time: min=    7.06 μs avg=    8.83 μs max=  167.95μs  BW=  442.55 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 8192 bytes, item count: 16
+Send-Recv            Size:     8192 bytes  Time: min=    0.35 μs avg=    0.65 μs max=    2.14μs  BW=12063.22 MB/s
+Send-Recv (Merkle)   Size:     8192 bytes  Time: min=   12.46 μs avg=   12.67 μs max=   16.13μs  BW=  616.79 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 16384 bytes, item count: 16
+Send-Recv            Size:    16384 bytes  Time: min=    0.79 μs avg=    1.19 μs max=    3.38μs  BW=13169.43 MB/s
+Send-Recv (Merkle)   Size:    16384 bytes  Time: min=   23.39 μs avg=   24.15 μs max=   45.35μs  BW=  646.94 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 32768 bytes, item count: 16
+Send-Recv            Size:    32768 bytes  Time: min=    1.64 μs avg=    2.20 μs max=    3.12μs  BW=14183.72 MB/s
+Send-Recv (Merkle)   Size:    32768 bytes  Time: min=   45.01 μs avg=   45.80 μs max=   58.20μs  BW=  682.30 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 65536 bytes, item count: 16
+Send-Recv            Size:    65536 bytes  Time: min=    3.52 μs avg=    4.37 μs max=    6.01μs  BW=14305.73 MB/s
+Send-Recv (Merkle)   Size:    65536 bytes  Time: min=   88.37 μs avg=   89.50 μs max=  105.83μs  BW=  698.33 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 131072 bytes, item count: 16
+Send-Recv            Size:   131072 bytes  Time: min=    6.97 μs avg=    8.35 μs max=   12.91μs  BW=14973.75 MB/s
+Send-Recv (Merkle)   Size:   131072 bytes  Time: min=  175.56 μs avg=  179.55 μs max=  208.50μs  BW=  696.19 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 262144 bytes, item count: 16
+Send-Recv            Size:   262144 bytes  Time: min=   24.99 μs avg=   28.74 μs max=  277.50μs  BW= 8699.29 MB/s
+Send-Recv (Merkle)   Size:   262144 bytes  Time: min=  358.15 μs avg=  362.70 μs max=  499.77μs  BW=  689.27 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 524288 bytes, item count: 16
+Send-Recv            Size:   524288 bytes  Time: min=   49.81 μs avg=   54.35 μs max=  304.96μs  BW= 9199.90 MB/s
+Send-Recv (Merkle)   Size:   524288 bytes  Time: min=  721.03 μs avg=  731.09 μs max=  997.06μs  BW=  683.91 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 1048576 bytes, item count: 16
+Send-Recv            Size:  1048576 bytes  Time: min=   91.91 μs avg=   96.97 μs max=  353.99μs  BW=10312.49 MB/s
+Send-Recv (Merkle)   Size:  1048576 bytes  Time: min= 1426.07 μs avg= 1439.31 μs max= 1948.14μs  BW=  694.78 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 2097152 bytes, item count: 16
+Send-Recv            Size:  2097152 bytes  Time: min=  194.71 μs avg=  210.84 μs max=  667.84μs  BW= 9485.69 MB/s
+Send-Recv (Merkle)   Size:  2097152 bytes  Time: min= 2864.94 μs avg= 2891.16 μs max= 4030.64μs  BW=  691.76 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 4194304 bytes, item count: 16
+Send-Recv            Size:  4194304 bytes  Time: min=  387.53 μs avg=  437.31 μs max=  897.91μs  BW= 9146.81 MB/s
+Send-Recv (Merkle)   Size:  4194304 bytes  Time: min= 6019.79 μs avg= 6063.08 μs max= 7699.75μs  BW=  659.73 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 8388608 bytes, item count: 16
+Send-Recv            Size:  8388608 bytes  Time: min=  771.11 μs avg=  874.32 μs max= 1893.18μs  BW= 9149.94 MB/s
+Send-Recv (Merkle)   Size:  8388608 bytes  Time: min=12901.50 μs avg=13005.45 μs max=14425.78μs  BW=  615.13 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 16777216 bytes, item count: 16
+Send-Recv            Size: 16777216 bytes  Time: min= 1712.38 μs avg= 1864.35 μs max= 3447.42μs  BW= 8582.08 MB/s
+Send-Recv (Merkle)   Size: 16777216 bytes  Time: min=25251.01 μs avg=26050.56 μs max=28280.57μs  BW=  614.19 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 33554432 bytes, item count: 16
+Send-Recv            Size: 33554432 bytes  Time: min= 4561.34 μs avg= 4673.33 μs max=11310.00μs  BW= 6847.37 MB/s
+Send-Recv (Merkle)   Size: 33554432 bytes  Time: min=53528.12 μs avg=54192.94 μs max=62392.77μs  BW=  590.48 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 67108864 bytes, item count: 16
+Send-Recv            Size: 67108864 bytes  Time: min= 8667.99 μs avg= 8871.25 μs max=25571.80μs  BW= 7214.32 MB/s
+Send-Recv (Merkle)   Size: 67108864 bytes  Time: min=105679.08 μs avg=106090.85 μs max=124975.80μs  BW=  603.26 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 134217728 bytes, item count: 16
+Send-Recv            Size: 134217728 bytes  Time: min=17593.80 μs avg=17975.20 μs max=50709.70μs  BW= 7120.92 MB/s
+Send-Recv (Merkle)   Size: 134217728 bytes  Time: min=210030.15 μs avg=210946.66 μs max=246476.13μs  BW=  606.79 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 268435456 bytes, item count: 16
+Send-Recv            Size: 268435456 bytes  Time: min=34683.76 μs avg=35412.50 μs max=98703.41μs  BW= 7229.09 MB/s
+Send-Recv (Merkle)   Size: 268435456 bytes  Time: min=425205.53 μs avg=427930.11 μs max=489578.52μs  BW=  598.23 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 128 bytes, item count: 32
+Send-Recv            Size:      128 bytes  Time: min=    0.14 μs avg=    0.25 μs max=    2.84μs  BW=  494.65 MB/s
+Send-Recv (Merkle)   Size:      128 bytes  Time: min=    1.66 μs avg=    1.78 μs max=    8.17μs  BW=   68.77 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 256 bytes, item count: 32
+Send-Recv            Size:      256 bytes  Time: min=    0.14 μs avg=    0.17 μs max=    0.32μs  BW= 1432.58 MB/s
+Send-Recv (Merkle)   Size:      256 bytes  Time: min=    1.71 μs avg=    1.79 μs max=    2.92μs  BW=  136.55 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 512 bytes, item count: 32
+Send-Recv            Size:      512 bytes  Time: min=    0.14 μs avg=    0.19 μs max=    0.45μs  BW= 2615.19 MB/s
+Send-Recv (Merkle)   Size:      512 bytes  Time: min=    1.86 μs avg=    2.02 μs max=    2.50μs  BW=  241.96 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 1024 bytes, item count: 32
+Send-Recv            Size:     1024 bytes  Time: min=    0.17 μs avg=    0.21 μs max=    0.36μs  BW= 4615.13 MB/s
+Send-Recv (Merkle)   Size:     1024 bytes  Time: min=    2.21 μs avg=    2.34 μs max=    6.50μs  BW=  417.46 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 2048 bytes, item count: 32
+Send-Recv            Size:     2048 bytes  Time: min=    0.21 μs avg=    0.30 μs max=    0.58μs  BW= 6555.43 MB/s
+Send-Recv (Merkle)   Size:     2048 bytes  Time: min=    2.97 μs avg=    3.11 μs max=    5.22μs  BW=  627.94 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 4096 bytes, item count: 32
+Send-Recv            Size:     4096 bytes  Time: min=    0.27 μs avg=    0.43 μs max=    0.74μs  BW= 9155.20 MB/s
+Send-Recv (Merkle)   Size:     4096 bytes  Time: min=    4.59 μs avg=    4.71 μs max=    5.78μs  BW=  829.37 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 8192 bytes, item count: 32
+Send-Recv            Size:     8192 bytes  Time: min=    0.37 μs avg=    0.63 μs max=    4.24μs  BW=12424.85 MB/s
+Send-Recv (Merkle)   Size:     8192 bytes  Time: min=    7.49 μs avg=    7.66 μs max=    8.30μs  BW= 1019.29 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 16384 bytes, item count: 32
+Send-Recv            Size:    16384 bytes  Time: min=    0.85 μs avg=    1.11 μs max=    3.46μs  BW=14110.90 MB/s
+Send-Recv (Merkle)   Size:    16384 bytes  Time: min=   13.71 μs avg=   13.98 μs max=   18.69μs  BW= 1117.27 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 32768 bytes, item count: 32
+Send-Recv            Size:    32768 bytes  Time: min=    1.94 μs avg=    2.30 μs max=    2.85μs  BW=13580.17 MB/s
+Send-Recv (Merkle)   Size:    32768 bytes  Time: min=   25.80 μs avg=   26.31 μs max=   32.29μs  BW= 1187.87 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 65536 bytes, item count: 32
+Send-Recv            Size:    65536 bytes  Time: min=    3.62 μs avg=    4.34 μs max=    5.95μs  BW=14399.53 MB/s
+Send-Recv (Merkle)   Size:    65536 bytes  Time: min=   49.63 μs avg=   50.49 μs max=   57.51μs  BW= 1237.76 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 131072 bytes, item count: 32
+Send-Recv            Size:   131072 bytes  Time: min=    7.09 μs avg=    8.49 μs max=   11.99μs  BW=14722.70 MB/s
+Send-Recv (Merkle)   Size:   131072 bytes  Time: min=   97.83 μs avg=   99.27 μs max=  104.39μs  BW= 1259.23 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 262144 bytes, item count: 32
+Send-Recv            Size:   262144 bytes  Time: min=   23.92 μs avg=   25.18 μs max=   67.99μs  BW= 9927.31 MB/s
+Send-Recv (Merkle)   Size:   262144 bytes  Time: min=  202.04 μs avg=  203.84 μs max=  211.61μs  BW= 1226.45 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 524288 bytes, item count: 32
+Send-Recv            Size:   524288 bytes  Time: min=   49.89 μs avg=   62.11 μs max= 1119.13μs  BW= 8049.86 MB/s
+Send-Recv (Merkle)   Size:   524288 bytes  Time: min=  400.76 μs avg=  404.77 μs max=  427.63μs  BW= 1235.27 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 1048576 bytes, item count: 32
+Send-Recv            Size:  1048576 bytes  Time: min=   88.00 μs avg=   91.58 μs max=  247.95μs  BW=10919.51 MB/s
+Send-Recv (Merkle)   Size:  1048576 bytes  Time: min=  796.59 μs avg=  801.25 μs max=  830.70μs  BW= 1248.04 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 2097152 bytes, item count: 32
+Send-Recv            Size:  2097152 bytes  Time: min=  190.15 μs avg=  195.68 μs max=  417.42μs  BW=10221.01 MB/s
+Send-Recv (Merkle)   Size:  2097152 bytes  Time: min= 1580.54 μs avg= 1593.01 μs max= 1912.28μs  BW= 1255.48 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 4194304 bytes, item count: 32
+Send-Recv            Size:  4194304 bytes  Time: min=  379.07 μs avg=  407.18 μs max=  611.86μs  BW= 9823.74 MB/s
+Send-Recv (Merkle)   Size:  4194304 bytes  Time: min= 3252.87 μs avg= 3270.26 μs max= 3700.03μs  BW= 1223.14 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 8388608 bytes, item count: 32
+Send-Recv            Size:  8388608 bytes  Time: min=  759.03 μs avg=  851.31 μs max= 1245.57μs  BW= 9397.26 MB/s
+Send-Recv (Merkle)   Size:  8388608 bytes  Time: min= 7041.61 μs avg= 7071.84 μs max= 7285.64μs  BW= 1131.25 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 16777216 bytes, item count: 32
+Send-Recv            Size: 16777216 bytes  Time: min= 1677.98 μs avg= 1849.39 μs max= 2773.31μs  BW= 8651.49 MB/s
+Send-Recv (Merkle)   Size: 16777216 bytes  Time: min=14330.96 μs avg=14454.02 μs max=15000.35μs  BW= 1106.96 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 33554432 bytes, item count: 32
+Send-Recv            Size: 33554432 bytes  Time: min= 4485.44 μs avg= 4547.58 μs max= 5132.49μs  BW= 7036.71 MB/s
+Send-Recv (Merkle)   Size: 33554432 bytes  Time: min=29004.02 μs avg=29255.35 μs max=33263.08μs  BW= 1093.82 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 67108864 bytes, item count: 32
+Send-Recv            Size: 67108864 bytes  Time: min= 8660.13 μs avg= 8887.70 μs max=28140.50μs  BW= 7200.96 MB/s
+Send-Recv (Merkle)   Size: 67108864 bytes  Time: min=60502.64 μs avg=60875.03 μs max=81320.23μs  BW= 1051.33 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 134217728 bytes, item count: 32
+Send-Recv            Size: 134217728 bytes  Time: min=17523.47 μs avg=17893.17 μs max=50084.46μs  BW= 7153.57 MB/s
+Send-Recv (Merkle)   Size: 134217728 bytes  Time: min=119616.64 μs avg=120376.77 μs max=155590.95μs  BW= 1063.33 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 268435456 bytes, item count: 32
+Send-Recv            Size: 268435456 bytes  Time: min=34484.04 μs avg=35195.65 μs max=98234.57μs  BW= 7273.63 MB/s
+Send-Recv (Merkle)   Size: 268435456 bytes  Time: min=238313.50 μs avg=240587.92 μs max=307522.30μs  BW= 1064.06 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 128 bytes, item count: 64
+Send-Recv            Size:      128 bytes  Time: min=    0.14 μs avg=    0.24 μs max=    3.00μs  BW=  503.86 MB/s
+Send-Recv (Merkle)   Size:      128 bytes  Time: min=    1.64 μs avg=    1.79 μs max=    6.69μs  BW=   68.18 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 256 bytes, item count: 64
+Send-Recv            Size:      256 bytes  Time: min=    0.14 μs avg=    0.17 μs max=    0.32μs  BW= 1423.73 MB/s
+Send-Recv (Merkle)   Size:      256 bytes  Time: min=    1.67 μs avg=    1.80 μs max=    6.94μs  BW=  135.55 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 512 bytes, item count: 64
+Send-Recv            Size:      512 bytes  Time: min=    0.15 μs avg=    0.31 μs max=   11.30μs  BW= 1561.60 MB/s
+Send-Recv (Merkle)   Size:      512 bytes  Time: min=    1.80 μs avg=    1.89 μs max=    2.59μs  BW=  257.73 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 1024 bytes, item count: 64
+Send-Recv            Size:     1024 bytes  Time: min=    0.16 μs avg=    0.22 μs max=    0.50μs  BW= 4478.62 MB/s
+Send-Recv (Merkle)   Size:     1024 bytes  Time: min=    2.06 μs avg=    2.13 μs max=    2.66μs  BW=  458.13 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 2048 bytes, item count: 64
+Send-Recv            Size:     2048 bytes  Time: min=    0.21 μs avg=    0.31 μs max=    1.64μs  BW= 6325.71 MB/s
+Send-Recv (Merkle)   Size:     2048 bytes  Time: min=    2.46 μs avg=    2.62 μs max=    3.70μs  BW=  744.97 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 4096 bytes, item count: 64
+Send-Recv            Size:     4096 bytes  Time: min=    0.31 μs avg=    0.43 μs max=    1.83μs  BW= 9079.87 MB/s
+Send-Recv (Merkle)   Size:     4096 bytes  Time: min=    3.57 μs avg=    3.76 μs max=    8.43μs  BW= 1039.06 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 8192 bytes, item count: 64
+Send-Recv            Size:     8192 bytes  Time: min=    0.36 μs avg=    0.59 μs max=    0.92μs  BW=13210.85 MB/s
+Send-Recv (Merkle)   Size:     8192 bytes  Time: min=    5.70 μs avg=    5.95 μs max=    7.13μs  BW= 1313.69 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 16384 bytes, item count: 64
+Send-Recv            Size:    16384 bytes  Time: min=    0.83 μs avg=    1.17 μs max=    5.25μs  BW=13333.39 MB/s
+Send-Recv (Merkle)   Size:    16384 bytes  Time: min=   10.10 μs avg=   10.36 μs max=   14.04μs  BW= 1508.91 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 32768 bytes, item count: 64
+Send-Recv            Size:    32768 bytes  Time: min=    1.92 μs avg=    2.24 μs max=    2.92μs  BW=13940.19 MB/s
+Send-Recv (Merkle)   Size:    32768 bytes  Time: min=   18.72 μs avg=   21.05 μs max=  209.48μs  BW= 1484.73 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 65536 bytes, item count: 64
+Send-Recv            Size:    65536 bytes  Time: min=    3.50 μs avg=    4.41 μs max=    5.62μs  BW=14179.38 MB/s
+Send-Recv (Merkle)   Size:    65536 bytes  Time: min=   35.87 μs avg=   36.66 μs max=   41.24μs  BW= 1704.69 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 131072 bytes, item count: 64
+Send-Recv            Size:   131072 bytes  Time: min=    6.64 μs avg=    8.37 μs max=   11.84μs  BW=14928.06 MB/s
+Send-Recv (Merkle)   Size:   131072 bytes  Time: min=   69.71 μs avg=   71.12 μs max=   76.24μs  BW= 1757.64 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 262144 bytes, item count: 64
+Send-Recv            Size:   262144 bytes  Time: min=   23.16 μs avg=   24.60 μs max=   62.15μs  BW=10162.84 MB/s
+Send-Recv (Merkle)   Size:   262144 bytes  Time: min=  145.44 μs avg=  146.84 μs max=  151.80μs  BW= 1702.51 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 524288 bytes, item count: 64
+Send-Recv            Size:   524288 bytes  Time: min=   49.85 μs avg=   58.89 μs max=  821.97μs  BW= 8489.83 MB/s
+Send-Recv (Merkle)   Size:   524288 bytes  Time: min=  286.70 μs avg=  289.70 μs max=  309.04μs  BW= 1725.94 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 1048576 bytes, item count: 64
+Send-Recv            Size:  1048576 bytes  Time: min=   86.10 μs avg=   89.97 μs max=  246.40μs  BW=11114.98 MB/s
+Send-Recv (Merkle)   Size:  1048576 bytes  Time: min=  567.98 μs avg=  572.07 μs max=  592.61μs  BW= 1748.05 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 2097152 bytes, item count: 64
+Send-Recv            Size:  2097152 bytes  Time: min=  193.56 μs avg=  201.79 μs max=  459.64μs  BW= 9911.12 MB/s
+Send-Recv (Merkle)   Size:  2097152 bytes  Time: min= 1128.75 μs avg= 1136.56 μs max= 1411.40μs  BW= 1759.70 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 4194304 bytes, item count: 64
+Send-Recv            Size:  4194304 bytes  Time: min=  377.51 μs avg=  406.91 μs max=  576.26μs  BW= 9830.09 MB/s
+Send-Recv (Merkle)   Size:  4194304 bytes  Time: min= 2263.74 μs avg= 2283.50 μs max= 2740.84μs  BW= 1751.69 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 8388608 bytes, item count: 64
+Send-Recv            Size:  8388608 bytes  Time: min=  728.00 μs avg=  834.26 μs max= 1101.66μs  BW= 9589.38 MB/s
+Send-Recv (Merkle)   Size:  8388608 bytes  Time: min= 4874.68 μs avg= 4904.51 μs max= 5160.60μs  BW= 1631.15 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 16777216 bytes, item count: 64
+Send-Recv            Size: 16777216 bytes  Time: min= 1622.92 μs avg= 1817.85 μs max= 2548.17μs  BW= 8801.59 MB/s
+Send-Recv (Merkle)   Size: 16777216 bytes  Time: min=10231.65 μs avg=10568.29 μs max=11090.10μs  BW= 1513.96 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 33554432 bytes, item count: 64
+Send-Recv            Size: 33554432 bytes  Time: min= 4302.11 μs avg= 4386.96 μs max=10810.09μs  BW= 7294.34 MB/s
+Send-Recv (Merkle)   Size: 33554432 bytes  Time: min=20522.81 μs avg=20943.86 μs max=26996.66μs  BW= 1527.89 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 67108864 bytes, item count: 64
+Send-Recv            Size: 67108864 bytes  Time: min= 8649.30 μs avg= 8861.07 μs max=27585.97μs  BW= 7222.61 MB/s
+Send-Recv (Merkle)   Size: 67108864 bytes  Time: min=41497.55 μs avg=41761.43 μs max=59553.96μs  BW= 1532.51 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 134217728 bytes, item count: 64
+Send-Recv            Size: 134217728 bytes  Time: min=17438.73 μs avg=17812.94 μs max=50056.50μs  BW= 7185.79 MB/s
+Send-Recv (Merkle)   Size: 134217728 bytes  Time: min=85812.82 μs avg=86885.83 μs max=119176.34μs  BW= 1473.20 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 268435456 bytes, item count: 64
+Send-Recv            Size: 268435456 bytes  Time: min=34423.64 μs avg=35120.66 μs max=97965.46μs  BW= 7289.16 MB/s
+Send-Recv (Merkle)   Size: 268435456 bytes  Time: min=170461.30 μs avg=172712.74 μs max=235629.15μs  BW= 1482.23 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 128 bytes, item count: 128
+Send-Recv            Size:      128 bytes  Time: min=    0.14 μs avg=    0.25 μs max=    2.81μs  BW=  489.24 MB/s
+Send-Recv (Merkle)   Size:      128 bytes  Time: min=    1.64 μs avg=    1.75 μs max=    7.33μs  BW=   69.95 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 256 bytes, item count: 128
+Send-Recv            Size:      256 bytes  Time: min=    0.14 μs avg=    0.17 μs max=    0.32μs  BW= 1447.79 MB/s
+Send-Recv (Merkle)   Size:      256 bytes  Time: min=    1.66 μs avg=    1.74 μs max=    2.82μs  BW=  140.53 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 512 bytes, item count: 128
+Send-Recv            Size:      512 bytes  Time: min=    0.15 μs avg=    0.19 μs max=    0.44μs  BW= 2607.50 MB/s
+Send-Recv (Merkle)   Size:      512 bytes  Time: min=    1.72 μs avg=    1.81 μs max=    2.25μs  BW=  270.47 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 1024 bytes, item count: 128
+Send-Recv            Size:     1024 bytes  Time: min=    0.16 μs avg=    0.22 μs max=    0.60μs  BW= 4431.67 MB/s
+Send-Recv (Merkle)   Size:     1024 bytes  Time: min=    1.88 μs avg=    1.96 μs max=    2.55μs  BW=  498.96 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 2048 bytes, item count: 128
+Send-Recv            Size:     2048 bytes  Time: min=    0.21 μs avg=    0.30 μs max=    0.73μs  BW= 6500.02 MB/s
+Send-Recv (Merkle)   Size:     2048 bytes  Time: min=    2.14 μs avg=    2.29 μs max=    3.16μs  BW=  852.33 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 4096 bytes, item count: 128
+Send-Recv            Size:     4096 bytes  Time: min=    0.29 μs avg=    0.47 μs max=    5.02μs  BW= 8397.83 MB/s
+Send-Recv (Merkle)   Size:     4096 bytes  Time: min=    2.75 μs avg=    2.85 μs max=    3.89μs  BW= 1372.99 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 8192 bytes, item count: 128
+Send-Recv            Size:     8192 bytes  Time: min=    0.38 μs avg=    0.60 μs max=    1.18μs  BW=12962.93 MB/s
+Send-Recv (Merkle)   Size:     8192 bytes  Time: min=    3.98 μs avg=    4.24 μs max=    6.19μs  BW= 1841.46 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 16384 bytes, item count: 128
+Send-Recv            Size:    16384 bytes  Time: min=    0.84 μs avg=    1.10 μs max=    3.01μs  BW=14219.28 MB/s
+Send-Recv (Merkle)   Size:    16384 bytes  Time: min=    6.82 μs avg=    9.00 μs max=  196.88μs  BW= 1735.54 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 32768 bytes, item count: 128
+Send-Recv            Size:    32768 bytes  Time: min=    1.84 μs avg=    2.27 μs max=    7.09μs  BW=13751.19 MB/s
+Send-Recv (Merkle)   Size:    32768 bytes  Time: min=   12.29 μs avg=   12.67 μs max=   16.01μs  BW= 2466.02 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 65536 bytes, item count: 128
+Send-Recv            Size:    65536 bytes  Time: min=    3.56 μs avg=    4.38 μs max=    5.58μs  BW=14270.71 MB/s
+Send-Recv (Merkle)   Size:    65536 bytes  Time: min=   22.90 μs avg=   23.53 μs max=   28.52μs  BW= 2656.47 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 131072 bytes, item count: 128
+Send-Recv            Size:   131072 bytes  Time: min=    7.34 μs avg=    8.50 μs max=   11.98μs  BW=14712.70 MB/s
+Send-Recv (Merkle)   Size:   131072 bytes  Time: min=   44.11 μs avg=   45.13 μs max=   49.13μs  BW= 2769.84 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 262144 bytes, item count: 128
+Send-Recv            Size:   262144 bytes  Time: min=   23.25 μs avg=   24.50 μs max=   62.45μs  BW=10203.37 MB/s
+Send-Recv (Merkle)   Size:   262144 bytes  Time: min=   93.15 μs avg=   94.19 μs max=   98.95μs  BW= 2654.17 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 524288 bytes, item count: 128
+Send-Recv            Size:   524288 bytes  Time: min=   49.89 μs avg=   58.77 μs max=  813.74μs  BW= 8507.63 MB/s
+Send-Recv (Merkle)   Size:   524288 bytes  Time: min=  183.15 μs avg=  185.17 μs max=  201.03μs  BW= 2700.28 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 1048576 bytes, item count: 128
+Send-Recv            Size:  1048576 bytes  Time: min=   85.02 μs avg=   88.92 μs max=  246.58μs  BW=11245.48 MB/s
+Send-Recv (Merkle)   Size:  1048576 bytes  Time: min=  360.00 μs avg=  363.45 μs max=  378.25μs  BW= 2751.42 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 2097152 bytes, item count: 128
+Send-Recv            Size:  2097152 bytes  Time: min=  194.05 μs avg=  202.55 μs max=  429.86μs  BW= 9874.12 MB/s
+Send-Recv (Merkle)   Size:  2097152 bytes  Time: min=  709.85 μs avg=  715.77 μs max=  779.76μs  BW= 2794.19 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 4194304 bytes, item count: 128
+Send-Recv            Size:  4194304 bytes  Time: min=  365.44 μs avg=  402.63 μs max=  583.04μs  BW= 9934.65 MB/s
+Send-Recv (Merkle)   Size:  4194304 bytes  Time: min= 1416.99 μs avg= 1426.44 μs max= 1551.01μs  BW= 2804.18 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 8388608 bytes, item count: 128
+Send-Recv            Size:  8388608 bytes  Time: min=  715.63 μs avg=  818.20 μs max=  954.46μs  BW= 9777.61 MB/s
+Send-Recv (Merkle)   Size:  8388608 bytes  Time: min= 3062.50 μs avg= 3086.13 μs max= 3441.71μs  BW= 2592.25 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 16777216 bytes, item count: 128
+Send-Recv            Size: 16777216 bytes  Time: min= 1605.07 μs avg= 1779.20 μs max= 2256.65μs  BW= 8992.79 MB/s
+Send-Recv (Merkle)   Size: 16777216 bytes  Time: min= 6748.63 μs avg= 6780.77 μs max= 7192.02μs  BW= 2359.62 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 33554432 bytes, item count: 128
+Send-Recv            Size: 33554432 bytes  Time: min= 4276.04 μs avg= 4389.59 μs max=13793.11μs  BW= 7289.97 MB/s
+Send-Recv (Merkle)   Size: 33554432 bytes  Time: min=13594.84 μs avg=13726.96 μs max=23047.60μs  BW= 2331.18 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 67108864 bytes, item count: 128
+Send-Recv            Size: 67108864 bytes  Time: min= 8627.38 μs avg= 8822.24 μs max=25551.01μs  BW= 7254.39 MB/s
+Send-Recv (Merkle)   Size: 67108864 bytes  Time: min=27081.55 μs avg=27320.33 μs max=44458.66μs  BW= 2342.58 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 134217728 bytes, item count: 128
+Send-Recv            Size: 134217728 bytes  Time: min=17447.21 μs avg=17834.00 μs max=49644.50μs  BW= 7177.30 MB/s
+Send-Recv (Merkle)   Size: 134217728 bytes  Time: min=54484.67 μs avg=55186.55 μs max=87986.58μs  BW= 2319.41 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 268435456 bytes, item count: 128
+Send-Recv            Size: 268435456 bytes  Time: min=34453.21 μs avg=35153.41 μs max=97917.09μs  BW= 7282.37 MB/s
+Send-Recv (Merkle)   Size: 268435456 bytes  Time: min=112627.51 μs avg=113483.08 μs max=176833.26μs  BW= 2255.84 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 128 bytes, item count: 256
+Send-Recv            Size:      128 bytes  Time: min=    0.14 μs avg=    0.24 μs max=    2.85μs  BW=  501.19 MB/s
+Send-Recv (Merkle)   Size:      128 bytes  Time: min=    1.62 μs avg=    1.78 μs max=    6.82μs  BW=   68.68 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 256 bytes, item count: 256
+Send-Recv            Size:      256 bytes  Time: min=    0.14 μs avg=    0.17 μs max=    0.32μs  BW= 1408.37 MB/s
+Send-Recv (Merkle)   Size:      256 bytes  Time: min=    1.67 μs avg=    1.72 μs max=    2.60μs  BW=  142.13 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 512 bytes, item count: 256
+Send-Recv            Size:      512 bytes  Time: min=    0.15 μs avg=    0.19 μs max=    0.50μs  BW= 2566.66 MB/s
+Send-Recv (Merkle)   Size:      512 bytes  Time: min=    1.71 μs avg=    1.80 μs max=    2.05μs  BW=  270.52 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 1024 bytes, item count: 256
+Send-Recv            Size:     1024 bytes  Time: min=    0.17 μs avg=    0.21 μs max=    0.42μs  BW= 4549.13 MB/s
+Send-Recv (Merkle)   Size:     1024 bytes  Time: min=    1.78 μs avg=    1.90 μs max=    6.42μs  BW=  514.32 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 2048 bytes, item count: 256
+Send-Recv            Size:     2048 bytes  Time: min=    0.22 μs avg=    0.31 μs max=    0.50μs  BW= 6324.68 MB/s
+Send-Recv (Merkle)   Size:     2048 bytes  Time: min=    1.96 μs avg=    2.12 μs max=    3.11μs  BW=  923.10 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 4096 bytes, item count: 256
+Send-Recv            Size:     4096 bytes  Time: min=    0.31 μs avg=    0.42 μs max=    0.75μs  BW= 9260.91 MB/s
+Send-Recv (Merkle)   Size:     4096 bytes  Time: min=    2.42 μs avg=    2.51 μs max=    3.18μs  BW= 1554.06 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 8192 bytes, item count: 256
+Send-Recv            Size:     8192 bytes  Time: min=    0.34 μs avg=    0.59 μs max=    0.96μs  BW=13246.24 MB/s
+Send-Recv (Merkle)   Size:     8192 bytes  Time: min=    3.21 μs avg=    3.41 μs max=    7.27μs  BW= 2291.83 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 16384 bytes, item count: 256
+Send-Recv            Size:    16384 bytes  Time: min=    0.82 μs avg=    1.10 μs max=    2.83μs  BW=14234.18 MB/s
+Send-Recv (Merkle)   Size:    16384 bytes  Time: min=    5.19 μs avg=    5.42 μs max=    7.21μs  BW= 2884.45 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 32768 bytes, item count: 256
+Send-Recv            Size:    32768 bytes  Time: min=    2.01 μs avg=    2.32 μs max=    6.47μs  BW=13456.72 MB/s
+Send-Recv (Merkle)   Size:    32768 bytes  Time: min=    9.19 μs avg=   10.52 μs max=  107.04μs  BW= 2971.21 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 65536 bytes, item count: 256
+Send-Recv            Size:    65536 bytes  Time: min=    3.47 μs avg=    4.39 μs max=    5.33μs  BW=14236.03 MB/s
+Send-Recv (Merkle)   Size:    65536 bytes  Time: min=   16.69 μs avg=   17.13 μs max=   20.83μs  BW= 3648.72 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 131072 bytes, item count: 256
+Send-Recv            Size:   131072 bytes  Time: min=    6.97 μs avg=    8.33 μs max=   11.68μs  BW=15005.80 MB/s
+Send-Recv (Merkle)   Size:   131072 bytes  Time: min=   31.21 μs avg=   32.29 μs max=   35.76μs  BW= 3870.57 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 262144 bytes, item count: 256
+Send-Recv            Size:   262144 bytes  Time: min=   22.98 μs avg=   24.05 μs max=   62.21μs  BW=10393.20 MB/s
+Send-Recv (Merkle)   Size:   262144 bytes  Time: min=   67.87 μs avg=   68.94 μs max=   73.48μs  BW= 3626.08 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 524288 bytes, item count: 256
+Send-Recv            Size:   524288 bytes  Time: min=   49.61 μs avg=   51.71 μs max=   92.11μs  BW= 9668.59 MB/s
+Send-Recv (Merkle)   Size:   524288 bytes  Time: min=  132.72 μs avg=  134.78 μs max=  152.77μs  BW= 3709.84 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 1048576 bytes, item count: 256
+Send-Recv            Size:  1048576 bytes  Time: min=   85.25 μs avg=   87.56 μs max=  120.79μs  BW=11421.24 MB/s
+Send-Recv (Merkle)   Size:  1048576 bytes  Time: min=  258.72 μs avg=  261.18 μs max=  273.63μs  BW= 3828.75 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 2097152 bytes, item count: 256
+Send-Recv            Size:  2097152 bytes  Time: min=  194.60 μs avg=  203.41 μs max=  412.93μs  BW= 9832.44 MB/s
+Send-Recv (Merkle)   Size:  2097152 bytes  Time: min=  508.73 μs avg=  515.84 μs max=  783.27μs  BW= 3877.17 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 4194304 bytes, item count: 256
+Send-Recv            Size:  4194304 bytes  Time: min=  359.30 μs avg=  398.82 μs max=  577.53μs  BW=10029.53 MB/s
+Send-Recv (Merkle)   Size:  4194304 bytes  Time: min= 1013.46 μs avg= 1022.92 μs max= 1296.29μs  BW= 3910.38 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 8388608 bytes, item count: 256
+Send-Recv            Size:  8388608 bytes  Time: min=  705.22 μs avg=  806.31 μs max=  933.87μs  BW= 9921.76 MB/s
+Send-Recv (Merkle)   Size:  8388608 bytes  Time: min= 2203.02 μs avg= 2220.64 μs max= 2613.62μs  BW= 3602.57 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 16777216 bytes, item count: 256
+Send-Recv            Size: 16777216 bytes  Time: min= 1591.16 μs avg= 1765.48 μs max= 1986.52μs  BW= 9062.70 MB/s
+Send-Recv (Merkle)   Size: 16777216 bytes  Time: min= 5070.98 μs avg= 5098.51 μs max= 5449.75μs  BW= 3138.17 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 33554432 bytes, item count: 256
+Send-Recv            Size: 33554432 bytes  Time: min= 4279.37 μs avg= 4407.86 μs max=14882.87μs  BW= 7259.75 MB/s
+Send-Recv (Merkle)   Size: 33554432 bytes  Time: min=10291.91 μs avg=10412.67 μs max=19681.19μs  BW= 3073.18 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 67108864 bytes, item count: 256
+Send-Recv            Size: 67108864 bytes  Time: min= 8637.57 μs avg= 8840.99 μs max=25597.49μs  BW= 7239.01 MB/s
+Send-Recv (Merkle)   Size: 67108864 bytes  Time: min=20415.96 μs avg=20629.13 μs max=37996.90μs  BW= 3102.41 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 134217728 bytes, item count: 256
+Send-Recv            Size: 134217728 bytes  Time: min=17388.50 μs avg=17773.22 μs max=49822.54μs  BW= 7201.85 MB/s
+Send-Recv (Merkle)   Size: 134217728 bytes  Time: min=41071.16 μs avg=41698.48 μs max=74447.01μs  BW= 3069.66 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 268435456 bytes, item count: 256
+Send-Recv            Size: 268435456 bytes  Time: min=34453.46 μs avg=35194.26 μs max=97883.77μs  BW= 7273.91 MB/s
+Send-Recv (Merkle)   Size: 268435456 bytes  Time: min=82672.40 μs avg=83445.81 μs max=146904.35μs  BW= 3067.86 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 128 bytes, item count: 512
+Send-Recv            Size:      128 bytes  Time: min=    0.14 μs avg=    0.25 μs max=    3.06μs  BW=  491.31 MB/s
+Send-Recv (Merkle)   Size:      128 bytes  Time: min=    1.64 μs avg=    1.80 μs max=    7.32μs  BW=   67.88 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 256 bytes, item count: 512
+Send-Recv            Size:      256 bytes  Time: min=    0.14 μs avg=    0.17 μs max=    0.31μs  BW= 1426.89 MB/s
+Send-Recv (Merkle)   Size:      256 bytes  Time: min=    1.66 μs avg=    1.72 μs max=    2.51μs  BW=  141.79 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 512 bytes, item count: 512
+Send-Recv            Size:      512 bytes  Time: min=    0.15 μs avg=    0.19 μs max=    0.46μs  BW= 2600.15 MB/s
+Send-Recv (Merkle)   Size:      512 bytes  Time: min=    1.71 μs avg=    1.79 μs max=    2.06μs  BW=  272.20 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 1024 bytes, item count: 512
+Send-Recv            Size:     1024 bytes  Time: min=    0.17 μs avg=    0.22 μs max=    0.45μs  BW= 4495.94 MB/s
+Send-Recv (Merkle)   Size:     1024 bytes  Time: min=    1.77 μs avg=    1.85 μs max=    2.15μs  BW=  529.19 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 2048 bytes, item count: 512
+Send-Recv            Size:     2048 bytes  Time: min=    0.21 μs avg=    0.30 μs max=    0.55μs  BW= 6578.84 MB/s
+Send-Recv (Merkle)   Size:     2048 bytes  Time: min=    1.90 μs avg=    2.06 μs max=    5.09μs  BW=  946.90 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 4096 bytes, item count: 512
+Send-Recv            Size:     4096 bytes  Time: min=    0.32 μs avg=    0.43 μs max=    0.86μs  BW= 9157.99 MB/s
+Send-Recv (Merkle)   Size:     4096 bytes  Time: min=    2.30 μs avg=    2.39 μs max=    3.20μs  BW= 1633.91 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 8192 bytes, item count: 512
+Send-Recv            Size:     8192 bytes  Time: min=    0.41 μs avg=    0.60 μs max=    1.18μs  BW=12938.46 MB/s
+Send-Recv (Merkle)   Size:     8192 bytes  Time: min=    2.88 μs avg=    3.08 μs max=    3.99μs  BW= 2538.01 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 16384 bytes, item count: 512
+Send-Recv            Size:    16384 bytes  Time: min=    0.79 μs avg=    1.10 μs max=    3.24μs  BW=14268.23 MB/s
+Send-Recv (Merkle)   Size:    16384 bytes  Time: min=    4.41 μs avg=    4.67 μs max=    8.45μs  BW= 3346.61 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 32768 bytes, item count: 512
+Send-Recv            Size:    32768 bytes  Time: min=    1.85 μs avg=    2.26 μs max=    3.19μs  BW=13801.30 MB/s
+Send-Recv (Merkle)   Size:    32768 bytes  Time: min=    7.55 μs avg=    8.02 μs max=   11.70μs  BW= 3895.88 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 65536 bytes, item count: 512
+Send-Recv            Size:    65536 bytes  Time: min=    3.42 μs avg=    4.27 μs max=    5.56μs  BW=14632.75 MB/s
+Send-Recv (Merkle)   Size:    65536 bytes  Time: min=   13.67 μs avg=   15.60 μs max=  145.66μs  BW= 4006.27 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 131072 bytes, item count: 512
+Send-Recv            Size:   131072 bytes  Time: min=    6.87 μs avg=    8.20 μs max=   12.22μs  BW=15242.27 MB/s
+Send-Recv (Merkle)   Size:   131072 bytes  Time: min=   25.49 μs avg=   26.56 μs max=   31.55μs  BW= 4706.42 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 262144 bytes, item count: 512
+Send-Recv            Size:   262144 bytes  Time: min=   23.56 μs avg=   24.65 μs max=   59.05μs  BW=10140.20 MB/s
+Send-Recv (Merkle)   Size:   262144 bytes  Time: min=   56.04 μs avg=   57.02 μs max=   62.73μs  BW= 4384.67 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 524288 bytes, item count: 512
+Send-Recv            Size:   524288 bytes  Time: min=   49.84 μs avg=   51.70 μs max=   92.95μs  BW= 9671.93 MB/s
+Send-Recv (Merkle)   Size:   524288 bytes  Time: min=  109.26 μs avg=  111.00 μs max=  129.05μs  BW= 4504.43 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 1048576 bytes, item count: 512
+Send-Recv            Size:  1048576 bytes  Time: min=   85.50 μs avg=   88.30 μs max=  120.14μs  BW=11325.35 MB/s
+Send-Recv (Merkle)   Size:  1048576 bytes  Time: min=  211.76 μs avg=  214.37 μs max=  229.33μs  BW= 4664.73 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 2097152 bytes, item count: 512
+Send-Recv            Size:  2097152 bytes  Time: min=  193.60 μs avg=  206.55 μs max=  381.28μs  BW= 9682.95 MB/s
+Send-Recv (Merkle)   Size:  2097152 bytes  Time: min=  414.42 μs avg=  420.26 μs max=  481.56μs  BW= 4758.99 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 4194304 bytes, item count: 512
+Send-Recv            Size:  4194304 bytes  Time: min=  355.51 μs avg=  397.61 μs max=  565.46μs  BW=10060.02 MB/s
+Send-Recv (Merkle)   Size:  4194304 bytes  Time: min=  823.46 μs avg=  830.30 μs max=  918.35μs  BW= 4817.56 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 8388608 bytes, item count: 512
+Send-Recv            Size:  8388608 bytes  Time: min=  698.05 μs avg=  801.89 μs max=  925.12μs  BW= 9976.37 MB/s
+Send-Recv (Merkle)   Size:  8388608 bytes  Time: min= 1795.58 μs avg= 1811.48 μs max= 2044.50μs  BW= 4416.27 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 16777216 bytes, item count: 512
+Send-Recv            Size: 16777216 bytes  Time: min= 1572.55 μs avg= 1774.27 μs max= 1970.19μs  BW= 9017.78 MB/s
+Send-Recv (Merkle)   Size: 16777216 bytes  Time: min= 4335.39 μs avg= 4366.19 μs max= 4997.38μs  BW= 3664.52 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 33554432 bytes, item count: 512
+Send-Recv            Size: 33554432 bytes  Time: min= 4269.29 μs avg= 4396.55 μs max=14947.03μs  BW= 7278.43 MB/s
+Send-Recv (Merkle)   Size: 33554432 bytes  Time: min= 8828.72 μs avg= 8969.00 μs max=18217.26μs  BW= 3567.84 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 67108864 bytes, item count: 512
+Send-Recv            Size: 67108864 bytes  Time: min= 8661.21 μs avg= 8917.04 μs max=29095.94μs  BW= 7177.27 MB/s
+Send-Recv (Merkle)   Size: 67108864 bytes  Time: min=17431.92 μs avg=17821.77 μs max=37250.15μs  BW= 3591.11 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 134217728 bytes, item count: 512
+Send-Recv            Size: 134217728 bytes  Time: min=17490.95 μs avg=17871.85 μs max=49958.63μs  BW= 7162.10 MB/s
+Send-Recv (Merkle)   Size: 134217728 bytes  Time: min=35070.07 μs avg=35737.19 μs max=68507.40μs  BW= 3581.70 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 268435456 bytes, item count: 512
+Send-Recv            Size: 268435456 bytes  Time: min=34460.72 μs avg=35178.95 μs max=97926.92μs  BW= 7277.08 MB/s
+Send-Recv (Merkle)   Size: 268435456 bytes  Time: min=70430.63 μs avg=71188.34 μs max=135091.44μs  BW= 3596.09 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 128 bytes, item count: 1024
+Send-Recv            Size:      128 bytes  Time: min=    0.14 μs avg=    0.25 μs max=    3.09μs  BW=  494.01 MB/s
+Send-Recv (Merkle)   Size:      128 bytes  Time: min=    1.64 μs avg=    1.75 μs max=    5.74μs  BW=   69.69 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 256 bytes, item count: 1024
+Send-Recv            Size:      256 bytes  Time: min=    0.14 μs avg=    0.18 μs max=    0.44μs  BW= 1390.09 MB/s
+Send-Recv (Merkle)   Size:      256 bytes  Time: min=    1.66 μs avg=    1.71 μs max=    2.41μs  BW=  142.55 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 512 bytes, item count: 1024
+Send-Recv            Size:      512 bytes  Time: min=    0.15 μs avg=    0.18 μs max=    0.38μs  BW= 2650.68 MB/s
+Send-Recv (Merkle)   Size:      512 bytes  Time: min=    1.70 μs avg=    1.79 μs max=    2.15μs  BW=  273.08 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 1024 bytes, item count: 1024
+Send-Recv            Size:     1024 bytes  Time: min=    0.17 μs avg=    0.22 μs max=    0.61μs  BW= 4422.24 MB/s
+Send-Recv (Merkle)   Size:     1024 bytes  Time: min=    1.78 μs avg=    1.85 μs max=    2.18μs  BW=  527.36 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 2048 bytes, item count: 1024
+Send-Recv            Size:     2048 bytes  Time: min=    0.22 μs avg=    0.33 μs max=    0.48μs  BW= 5987.14 MB/s
+Send-Recv (Merkle)   Size:     2048 bytes  Time: min=    1.88 μs avg=    1.98 μs max=    3.05μs  BW=  988.16 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 4096 bytes, item count: 1024
+Send-Recv            Size:     4096 bytes  Time: min=    0.26 μs avg=    0.42 μs max=    1.16μs  BW= 9239.22 MB/s
+Send-Recv (Merkle)   Size:     4096 bytes  Time: min=    2.14 μs avg=    2.27 μs max=    2.79μs  BW= 1724.27 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 8192 bytes, item count: 1024
+Send-Recv            Size:     8192 bytes  Time: min=    0.37 μs avg=    0.58 μs max=    0.98μs  BW=13395.69 MB/s
+Send-Recv (Merkle)   Size:     8192 bytes  Time: min=    2.74 μs avg=    2.93 μs max=    3.80μs  BW= 2667.74 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 16384 bytes, item count: 1024
+Send-Recv            Size:    16384 bytes  Time: min=    0.85 μs avg=    1.14 μs max=    5.54μs  BW=13656.78 MB/s
+Send-Recv (Merkle)   Size:    16384 bytes  Time: min=    4.10 μs avg=    4.33 μs max=    5.23μs  BW= 3610.25 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 32768 bytes, item count: 1024
+Send-Recv            Size:    32768 bytes  Time: min=    1.91 μs avg=    2.25 μs max=    2.88μs  BW=13904.28 MB/s
+Send-Recv (Merkle)   Size:    32768 bytes  Time: min=    6.91 μs avg=    7.22 μs max=   10.92μs  BW= 4326.83 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 65536 bytes, item count: 1024
+Send-Recv            Size:    65536 bytes  Time: min=    3.57 μs avg=    4.37 μs max=    5.96μs  BW=14316.93 MB/s
+Send-Recv (Merkle)   Size:    65536 bytes  Time: min=   12.04 μs avg=   14.53 μs max=  198.53μs  BW= 4302.53 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 131072 bytes, item count: 1024
+Send-Recv            Size:   131072 bytes  Time: min=    6.87 μs avg=    8.25 μs max=   12.01μs  BW=15148.34 MB/s
+Send-Recv (Merkle)   Size:   131072 bytes  Time: min=   22.27 μs avg=   23.39 μs max=   28.29μs  BW= 5344.56 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 262144 bytes, item count: 1024
+Send-Recv            Size:   262144 bytes  Time: min=   22.95 μs avg=   24.09 μs max=   51.74μs  BW=10379.87 MB/s
+Send-Recv (Merkle)   Size:   262144 bytes  Time: min=   49.93 μs avg=   50.83 μs max=   58.82μs  BW= 4918.77 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 524288 bytes, item count: 1024
+Send-Recv            Size:   524288 bytes  Time: min=   49.87 μs avg=   51.31 μs max=   66.06μs  BW= 9744.26 MB/s
+Send-Recv (Merkle)   Size:   524288 bytes  Time: min=   97.21 μs avg=   98.86 μs max=  111.89μs  BW= 5057.68 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 1048576 bytes, item count: 1024
+Send-Recv            Size:  1048576 bytes  Time: min=   85.35 μs avg=   87.38 μs max=   95.62μs  BW=11444.83 MB/s
+Send-Recv (Merkle)   Size:  1048576 bytes  Time: min=  187.35 μs avg=  194.12 μs max=  392.75μs  BW= 5151.54 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 2097152 bytes, item count: 1024
+Send-Recv            Size:  2097152 bytes  Time: min=  193.72 μs avg=  214.65 μs max=  404.16μs  BW= 9317.42 MB/s
+Send-Recv (Merkle)   Size:  2097152 bytes  Time: min=  366.04 μs avg=  372.89 μs max=  561.92μs  BW= 5363.49 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 4194304 bytes, item count: 1024
+Send-Recv            Size:  4194304 bytes  Time: min=  351.31 μs avg=  399.11 μs max=  565.55μs  BW=10022.34 MB/s
+Send-Recv (Merkle)   Size:  4194304 bytes  Time: min=  724.54 μs avg=  734.30 μs max=  991.48μs  BW= 5447.38 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 8388608 bytes, item count: 1024
+Send-Recv            Size:  8388608 bytes  Time: min=  681.71 μs avg=  800.63 μs max=  915.95μs  BW= 9992.17 MB/s
+Send-Recv (Merkle)   Size:  8388608 bytes  Time: min= 1581.54 μs avg= 1598.01 μs max= 1848.60μs  BW= 5006.24 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 16777216 bytes, item count: 1024
+Send-Recv            Size: 16777216 bytes  Time: min= 1571.43 μs avg= 1760.49 μs max= 1957.25μs  BW= 9088.37 MB/s
+Send-Recv (Merkle)   Size: 16777216 bytes  Time: min= 3953.29 μs avg= 3978.47 μs max= 4235.06μs  BW= 4021.65 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 33554432 bytes, item count: 1024
+Send-Recv            Size: 33554432 bytes  Time: min= 4268.67 μs avg= 4394.36 μs max=14385.85μs  BW= 7282.06 MB/s
+Send-Recv (Merkle)   Size: 33554432 bytes  Time: min= 8080.47 μs avg= 8218.03 μs max=17556.40μs  BW= 3893.88 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 67108864 bytes, item count: 1024
+Send-Recv            Size: 67108864 bytes  Time: min= 8662.32 μs avg= 8854.14 μs max=25389.92μs  BW= 7228.26 MB/s
+Send-Recv (Merkle)   Size: 67108864 bytes  Time: min=15874.91 μs avg=16081.55 μs max=33319.41μs  BW= 3979.72 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 134217728 bytes, item count: 1024
+Send-Recv            Size: 134217728 bytes  Time: min=17489.21 μs avg=17856.00 μs max=49873.65μs  BW= 7168.46 MB/s
+Send-Recv (Merkle)   Size: 134217728 bytes  Time: min=32125.46 μs avg=32552.29 μs max=65295.23μs  BW= 3932.13 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 268435456 bytes, item count: 1024
+Send-Recv            Size: 268435456 bytes  Time: min=34550.55 μs avg=35242.33 μs max=97895.75μs  BW= 7263.99 MB/s
+Send-Recv (Merkle)   Size: 268435456 bytes  Time: min=64003.40 μs avg=64826.21 μs max=128567.18μs  BW= 3949.02 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 128 bytes, item count: 2048
+Send-Recv            Size:      128 bytes  Time: min=    0.14 μs avg=    0.25 μs max=    3.10μs  BW=  497.47 MB/s
+Send-Recv (Merkle)   Size:      128 bytes  Time: min=    1.61 μs avg=    1.77 μs max=    6.48μs  BW=   69.11 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 256 bytes, item count: 2048
+Send-Recv            Size:      256 bytes  Time: min=    0.14 μs avg=    0.17 μs max=    0.32μs  BW= 1435.78 MB/s
+Send-Recv (Merkle)   Size:      256 bytes  Time: min=    1.66 μs avg=    1.72 μs max=    2.38μs  BW=  142.16 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 512 bytes, item count: 2048
+Send-Recv            Size:      512 bytes  Time: min=    0.15 μs avg=    0.18 μs max=    0.44μs  BW= 2657.60 MB/s
+Send-Recv (Merkle)   Size:      512 bytes  Time: min=    1.72 μs avg=    1.80 μs max=    2.14μs  BW=  271.36 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 1024 bytes, item count: 2048
+Send-Recv            Size:     1024 bytes  Time: min=    0.17 μs avg=    0.22 μs max=    0.40μs  BW= 4537.30 MB/s
+Send-Recv (Merkle)   Size:     1024 bytes  Time: min=    1.78 μs avg=    1.90 μs max=    2.47μs  BW=  514.36 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 2048 bytes, item count: 2048
+Send-Recv            Size:     2048 bytes  Time: min=    0.20 μs avg=    0.29 μs max=    0.64μs  BW= 6677.81 MB/s
+Send-Recv (Merkle)   Size:     2048 bytes  Time: min=    1.89 μs avg=    2.02 μs max=    5.82μs  BW=  969.05 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 4096 bytes, item count: 2048
+Send-Recv            Size:     4096 bytes  Time: min=    0.31 μs avg=    0.42 μs max=    0.73μs  BW= 9391.83 MB/s
+Send-Recv (Merkle)   Size:     4096 bytes  Time: min=    2.19 μs avg=    2.29 μs max=    2.85μs  BW= 1708.40 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 8192 bytes, item count: 2048
+Send-Recv            Size:     8192 bytes  Time: min=    0.36 μs avg=    0.59 μs max=    1.00μs  BW=13297.42 MB/s
+Send-Recv (Merkle)   Size:     8192 bytes  Time: min=    2.62 μs avg=    2.82 μs max=    3.62μs  BW= 2765.63 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 16384 bytes, item count: 2048
+Send-Recv            Size:    16384 bytes  Time: min=    0.86 μs avg=    1.10 μs max=    2.86μs  BW=14210.75 MB/s
+Send-Recv (Merkle)   Size:    16384 bytes  Time: min=    3.94 μs avg=    4.21 μs max=    7.60μs  BW= 3712.24 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 32768 bytes, item count: 2048
+Send-Recv            Size:    32768 bytes  Time: min=    1.83 μs avg=    2.21 μs max=    2.84μs  BW=14141.10 MB/s
+Send-Recv (Merkle)   Size:    32768 bytes  Time: min=    6.53 μs avg=    6.92 μs max=   10.38μs  BW= 4515.80 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 65536 bytes, item count: 2048
+Send-Recv            Size:    65536 bytes  Time: min=    3.50 μs avg=    4.29 μs max=    5.30μs  BW=14574.20 MB/s
+Send-Recv (Merkle)   Size:    65536 bytes  Time: min=   11.44 μs avg=   11.91 μs max=   15.69μs  BW= 5247.68 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 131072 bytes, item count: 2048
+Send-Recv            Size:   131072 bytes  Time: min=    7.42 μs avg=    8.48 μs max=   11.53μs  BW=14733.15 MB/s
+Send-Recv (Merkle)   Size:   131072 bytes  Time: min=   21.34 μs avg=   24.02 μs max=  214.57μs  BW= 5203.62 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 262144 bytes, item count: 2048
+Send-Recv            Size:   262144 bytes  Time: min=   23.32 μs avg=   24.31 μs max=   47.54μs  BW=10285.37 MB/s
+Send-Recv (Merkle)   Size:   262144 bytes  Time: min=   46.93 μs avg=   47.82 μs max=   54.36μs  BW= 5228.10 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 524288 bytes, item count: 2048
+Send-Recv            Size:   524288 bytes  Time: min=   50.18 μs avg=   51.47 μs max=   56.29μs  BW= 9714.33 MB/s
+Send-Recv (Merkle)   Size:   524288 bytes  Time: min=   91.32 μs avg=   92.97 μs max=  105.99μs  BW= 5377.90 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 1048576 bytes, item count: 2048
+Send-Recv            Size:  1048576 bytes  Time: min=   85.65 μs avg=   88.20 μs max=  116.14μs  BW=11337.70 MB/s
+Send-Recv (Merkle)   Size:  1048576 bytes  Time: min=  176.22 μs avg=  185.93 μs max=  385.83μs  BW= 5378.28 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 2097152 bytes, item count: 2048
+Send-Recv            Size:  2097152 bytes  Time: min=  194.42 μs avg=  212.53 μs max=  407.52μs  BW= 9410.34 MB/s
+Send-Recv (Merkle)   Size:  2097152 bytes  Time: min=  343.35 μs avg=  351.52 μs max=  555.46μs  BW= 5689.63 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 4194304 bytes, item count: 2048
+Send-Recv            Size:  4194304 bytes  Time: min=  350.42 μs avg=  403.53 μs max=  570.10μs  BW= 9912.53 MB/s
+Send-Recv (Merkle)   Size:  4194304 bytes  Time: min=  676.22 μs avg=  684.12 μs max=  771.50μs  BW= 5846.97 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 8388608 bytes, item count: 2048
+Send-Recv            Size:  8388608 bytes  Time: min=  680.44 μs avg=  797.60 μs max=  915.72μs  BW=10030.15 MB/s
+Send-Recv (Merkle)   Size:  8388608 bytes  Time: min= 1482.13 μs avg= 1502.28 μs max= 1924.84μs  BW= 5325.25 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 16777216 bytes, item count: 2048
+Send-Recv            Size: 16777216 bytes  Time: min= 1554.89 μs avg= 1757.48 μs max= 2147.02μs  BW= 9103.94 MB/s
+Send-Recv (Merkle)   Size: 16777216 bytes  Time: min= 3453.74 μs avg= 3811.19 μs max= 4060.17μs  BW= 4198.16 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 33554432 bytes, item count: 2048
+Send-Recv            Size: 33554432 bytes  Time: min= 4275.10 μs avg= 4398.61 μs max=14463.24μs  BW= 7275.03 MB/s
+Send-Recv (Merkle)   Size: 33554432 bytes  Time: min= 7763.44 μs avg= 7895.69 μs max=17223.78μs  BW= 4052.84 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 67108864 bytes, item count: 2048
+Send-Recv            Size: 67108864 bytes  Time: min= 8639.83 μs avg= 8834.32 μs max=25344.83μs  BW= 7244.47 MB/s
+Send-Recv (Merkle)   Size: 67108864 bytes  Time: min=15188.79 μs avg=15420.64 μs max=32683.30μs  BW= 4150.28 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 134217728 bytes, item count: 2048
+Send-Recv            Size: 134217728 bytes  Time: min=17537.36 μs avg=17917.77 μs max=49912.80μs  BW= 7143.75 MB/s
+Send-Recv (Merkle)   Size: 134217728 bytes  Time: min=30767.99 μs avg=31256.38 μs max=64183.35μs  BW= 4095.16 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 268435456 bytes, item count: 2048
+Send-Recv            Size: 268435456 bytes  Time: min=34617.64 μs avg=35319.72 μs max=97852.24μs  BW= 7248.08 MB/s
+Send-Recv (Merkle)   Size: 268435456 bytes  Time: min=61122.07 μs avg=61992.58 μs max=125751.01μs  BW= 4129.53 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 128 bytes, item count: 4096
+Send-Recv            Size:      128 bytes  Time: min=    0.15 μs avg=    0.25 μs max=    2.99μs  BW=  487.93 MB/s
+Send-Recv (Merkle)   Size:      128 bytes  Time: min=    1.63 μs avg=    1.72 μs max=    4.81μs  BW=   71.08 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 256 bytes, item count: 4096
+Send-Recv            Size:      256 bytes  Time: min=    0.14 μs avg=    0.17 μs max=    0.32μs  BW= 1443.85 MB/s
+Send-Recv (Merkle)   Size:      256 bytes  Time: min=    1.64 μs avg=    1.71 μs max=    2.45μs  BW=  143.05 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 512 bytes, item count: 4096
+Send-Recv            Size:      512 bytes  Time: min=    0.15 μs avg=    0.19 μs max=    0.50μs  BW= 2535.74 MB/s
+Send-Recv (Merkle)   Size:      512 bytes  Time: min=    1.68 μs avg=    1.78 μs max=    2.11μs  BW=  273.96 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 1024 bytes, item count: 4096
+Send-Recv            Size:     1024 bytes  Time: min=    0.17 μs avg=    0.22 μs max=    0.46μs  BW= 4368.63 MB/s
+Send-Recv (Merkle)   Size:     1024 bytes  Time: min=    1.76 μs avg=    1.89 μs max=    6.21μs  BW=  516.39 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 2048 bytes, item count: 4096
+Send-Recv            Size:     2048 bytes  Time: min=    0.21 μs avg=    0.30 μs max=    0.58μs  BW= 6599.29 MB/s
+Send-Recv (Merkle)   Size:     2048 bytes  Time: min=    1.87 μs avg=    1.96 μs max=    2.97μs  BW=  995.27 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 4096 bytes, item count: 4096
+Send-Recv            Size:     4096 bytes  Time: min=    0.32 μs avg=    0.42 μs max=    0.74μs  BW= 9356.29 MB/s
+Send-Recv (Merkle)   Size:     4096 bytes  Time: min=    2.16 μs avg=    2.27 μs max=    2.82μs  BW= 1723.80 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 8192 bytes, item count: 4096
+Send-Recv            Size:     8192 bytes  Time: min=    0.36 μs avg=    0.60 μs max=    0.98μs  BW=13102.95 MB/s
+Send-Recv (Merkle)   Size:     8192 bytes  Time: min=    2.61 μs avg=    2.81 μs max=    3.38μs  BW= 2781.69 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 16384 bytes, item count: 4096
+Send-Recv            Size:    16384 bytes  Time: min=    0.84 μs avg=    1.14 μs max=    5.47μs  BW=13662.28 MB/s
+Send-Recv (Merkle)   Size:    16384 bytes  Time: min=    3.83 μs avg=    4.04 μs max=    5.08μs  BW= 3868.44 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 32768 bytes, item count: 4096
+Send-Recv            Size:    32768 bytes  Time: min=    1.74 μs avg=    2.27 μs max=    2.89μs  BW=13766.10 MB/s
+Send-Recv (Merkle)   Size:    32768 bytes  Time: min=    6.36 μs avg=    6.75 μs max=   10.08μs  BW= 4631.83 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 65536 bytes, item count: 4096
+Send-Recv            Size:    65536 bytes  Time: min=    3.63 μs avg=    4.36 μs max=    5.57μs  BW=14329.18 MB/s
+Send-Recv (Merkle)   Size:    65536 bytes  Time: min=   10.96 μs avg=   11.59 μs max=   15.25μs  BW= 5392.83 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 131072 bytes, item count: 4096
+Send-Recv            Size:   131072 bytes  Time: min=    7.29 μs avg=    8.31 μs max=   10.99μs  BW=15047.59 MB/s
+Send-Recv (Merkle)   Size:   131072 bytes  Time: min=   20.28 μs avg=   22.71 μs max=  174.41μs  BW= 5503.34 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 262144 bytes, item count: 4096
+Send-Recv            Size:   262144 bytes  Time: min=   22.79 μs avg=   23.75 μs max=   32.62μs  BW=10528.29 MB/s
+Send-Recv (Merkle)   Size:   262144 bytes  Time: min=   45.30 μs avg=   46.17 μs max=   50.92μs  BW= 5414.77 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 524288 bytes, item count: 4096
+Send-Recv            Size:   524288 bytes  Time: min=   50.04 μs avg=   51.74 μs max=   85.32μs  BW= 9663.09 MB/s
+Send-Recv (Merkle)   Size:   524288 bytes  Time: min=   87.89 μs avg=   89.71 μs max=  101.44μs  BW= 5573.58 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 1048576 bytes, item count: 4096
+Send-Recv            Size:  1048576 bytes  Time: min=   85.78 μs avg=   88.27 μs max=  114.36μs  BW=11328.58 MB/s
+Send-Recv (Merkle)   Size:  1048576 bytes  Time: min=  170.09 μs avg=  176.35 μs max=  373.55μs  BW= 5670.42 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 2097152 bytes, item count: 4096
+Send-Recv            Size:  2097152 bytes  Time: min=  194.74 μs avg=  216.40 μs max=  413.26μs  BW= 9241.98 MB/s
+Send-Recv (Merkle)   Size:  2097152 bytes  Time: min=  330.51 μs avg=  339.32 μs max=  604.13μs  BW= 5894.15 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 4194304 bytes, item count: 4096
+Send-Recv            Size:  4194304 bytes  Time: min=  347.12 μs avg=  400.84 μs max=  565.27μs  BW= 9979.06 MB/s
+Send-Recv (Merkle)   Size:  4194304 bytes  Time: min=  648.25 μs avg=  661.01 μs max=  926.54μs  BW= 6051.32 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 8388608 bytes, item count: 4096
+Send-Recv            Size:  8388608 bytes  Time: min=  681.96 μs avg=  800.89 μs max=  913.91μs  BW= 9988.90 MB/s
+Send-Recv (Merkle)   Size:  8388608 bytes  Time: min= 1421.48 μs avg= 1438.29 μs max= 1498.35μs  BW= 5562.16 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 16777216 bytes, item count: 4096
+Send-Recv            Size: 16777216 bytes  Time: min= 1550.98 μs avg= 1753.52 μs max= 1952.46μs  BW= 9124.51 MB/s
+Send-Recv (Merkle)   Size: 16777216 bytes  Time: min= 3357.43 μs avg= 3707.71 μs max= 3974.02μs  BW= 4315.33 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 33554432 bytes, item count: 4096
+Send-Recv            Size: 33554432 bytes  Time: min= 4269.34 μs avg= 4396.84 μs max=14819.18μs  BW= 7277.96 MB/s
+Send-Recv (Merkle)   Size: 33554432 bytes  Time: min= 7551.02 μs avg= 7701.35 μs max=17006.58μs  BW= 4155.12 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 67108864 bytes, item count: 4096
+Send-Recv            Size: 67108864 bytes  Time: min= 8636.82 μs avg= 8838.78 μs max=25649.43μs  BW= 7240.82 MB/s
+Send-Recv (Merkle)   Size: 67108864 bytes  Time: min=14792.22 μs avg=15180.12 μs max=32686.36μs  BW= 4216.04 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 134217728 bytes, item count: 4096
+Send-Recv            Size: 134217728 bytes  Time: min=17425.81 μs avg=17799.43 μs max=50031.67μs  BW= 7191.24 MB/s
+Send-Recv (Merkle)   Size: 134217728 bytes  Time: min=29838.26 μs avg=30233.47 μs max=62682.99μs  BW= 4233.72 MB/s
+---------------------------------------------
+Send-Recv Buffer size: 268435456 bytes, item count: 4096
+Send-Recv            Size: 268435456 bytes  Time: min=34407.26 μs avg=35108.12 μs max=97474.44μs  BW= 7291.76 MB/s
+Send-Recv (Merkle)   Size: 268435456 bytes  Time: min=59379.22 μs avg=60119.11 μs max=123661.74μs  BW= 4258.21 MB/s
+---------------------------------------------
