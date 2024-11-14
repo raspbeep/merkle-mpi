@@ -16,8 +16,6 @@ A high-performance library for validating data integrity in MPI communications u
 
 - OpenMPI 
 - OpenMP-compatible C compiler
-- XXHash library
-- CMake (for building)
 
 ### Building from Source
 
