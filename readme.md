@@ -47,7 +47,7 @@ int main(int argc, char** argv) {
     if (rank == 0) {
         // Send data with Merkle tree validation
         MPI_Send_Merkle(data, 10, MPI_INT, 1, 0, MPI_COMM_WORLD);
-    } else {
+    } else if (rank == 1) {
         // Receive data with automatic validation
         MPI_Status status;
         MPI_Recv_Merkle(data, 10, MPI_INT, 0, 0, MPI_COMM_WORLD, &status);
