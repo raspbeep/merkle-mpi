@@ -64,10 +64,10 @@ int main(int argc, char** argv) {
 
 The library provides Merkle tree-enhanced versions of standard MPI operations:
 
-- `MPI_Send_Merkle`: Send data with Merkle tree validation
-- `MPI_Recv_Merkle`: Receive and validate data using Merkle trees
-- `MPI_Bcast_Merkle`: Broadcast data with integrity checking
-- `MPI_Allgather_Merkle`: Gather data from all processes with validation
+- `MPI_Send_Merkle`: `MPI_Send` wrapper
+- `MPI_Recv_Merkle`: `MPI_Recv` wrapper
+- `MPI_Bcast_Merkle`: `MPI_Bcast` wrapper
+- `MPI_Allgather_Merkle`: `MPI_Allgather` wrapper
 
 ### Configuration Functions
 
